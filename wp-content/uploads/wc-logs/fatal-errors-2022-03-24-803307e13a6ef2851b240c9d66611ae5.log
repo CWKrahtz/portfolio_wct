@@ -1,0 +1,15 @@
+2022-03-24T06:09:11+00:00 CRITICAL Uncaught Error: Class "Elementor\Scheme_Typography" not found in /home/busia.radiantthemes.com/public_html/wp-content/plugins/radiantthemes-addons/widgets/product_box/class-radiantthemes-product-box.php:362
+Stack trace:
+#0 /home/busia.radiantthemes.com/public_html/wp-content/plugins/elementor/includes/base/controls-stack.php(2280): RadiantthemesAddons\Widgets\Radiantthemes_style_Product->_register_controls()
+#1 /home/busia.radiantthemes.com/public_html/wp-content/plugins/elementor/includes/base/controls-stack.php(494): Elementor\Controls_Stack->init_controls()
+#2 /home/busia.radiantthemes.com/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /home/busia.radiantthemes.com/public_html/wp-content/plugins/elementor/includes/managers/widgets.php(336): Elementor\Widget_Base->get_stack()
+#4 [internal function]: Elementor\Widgets_Manager->ajax_get_widget_types_controls_config()
+#5 /home/busia.radiantthemes.com/public_html/wp-content/plugins/elementor/core/common/modules/ajax/module.php(171): call_user_func()
+#6 /home/busia.radiantthemes.com/public_html/wp-includes/class-wp-hook.php(307): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request()
+#7 /home/busia.radiantthemes.com/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#8 /home/busia.radiantthemes.com/public_html/wp-includes/plugin.php(474): WP_Hook->do_action()
+#9 /home/busia.radiantthemes.com/public_html/wp-admin/admin-ajax.php(187): do_action()
+#10 {main}
+  thrown in /home/busia.radiantthemes.com/public_html/wp-content/plugins/radiantthemes-addons/widgets/product_box/class-radiantthemes-product-box.php on line 362
+

@@ -1,0 +1,654 @@
+/* ================== Accordion ELEMENT-ONE STARTS ================== */
+
+.radiantthemes-accordion.element-one .btn.btn-link .card-header:first-child {
+    border-radius: calc(.25rem - 1px) calc(.25rem - 1px) 0 0;
+    background: transparent;
+    border: 0;
+    padding: 0;
+    display: inline-block;
+    float: left;
+}
+
+.radiantthemes-accordion.element-one .btn.btn-link,
+.radiantthemes-accordion.element-one .btn.btn-link.collapsed {
+    padding: 0 20px;
+}
+
+.radiantthemes-accordion.element-one .btn.btn-link .mb-0 {
+    display: inline-block;
+}
+
+.radiantthemes-accordion.element-one .btn.btn-link h6.mb-0 {
+    padding: 15px 0;
+    text-align: left;
+    display: inline-block;
+    float: left;
+    font-weight: 600;
+    font-size: 15px;
+    color: #1e1e1e;
+    line-height: 23px;
+    letter-spacing: 0;
+}
+
+.radiantthemes-accordion.element-one .card-header {
+    background: transparent;
+    border: none;
+    overflow: hidden;
+    padding: 15px 20px;
+    display: inline-flex;
+    float: left;
+}
+
+.radiantthemes-accordion.element-one .img-upload {
+    padding: 18px 10px 18px 0;
+    float: left;
+    display: flex;
+}
+
+.radiantthemes-accordion.element-one .mb-0 {
+    float: left;
+    display: flex;
+    font-weight: 600;
+    font-size: 15px;
+    color: #1e1e1e;
+    line-height: 23px;
+    letter-spacing: 0;
+    padding: 15px 0;
+}
+
+.radiantthemes-accordion.element-one button.btn.btn-link {
+    width: 100%;
+    text-align: left;
+    position: relative;
+    padding: 0 20px;
+    transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    box-shadow: 0px 0px 30px 0px rgb(0 0 0 / 6%);
+    border-radius: 4px;
+    border: none;
+    font-weight: normal !important;
+    color: #000 !important;
+}
+
+.radiantthemes-accordion.element-one button.btn.btn-link:hover {
+    color: #000 !important;
+}
+
+.radiantthemes-accordion.element-one button.btn.btn-link.collapsed {
+    transform: translateX(0px);
+    -webkit-transform: translateX(0px);
+}
+
+
+
+.radiantthemes-accordion.element-one button.btn.btn-link[aria-expanded="true"] .card-header:after {
+    position: absolute;
+    content: "\002D";
+    top: 15px;
+    right: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 9;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    line-height: 20px;
+    color: #000;
+}
+
+.radiantthemes-accordion.element-one button.btn.btn-link.collapsed[aria-expanded="false"] .card-header:before {
+    position: absolute;
+    content: "\002B";
+    right: 10px;
+    top: 15px;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 9;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    line-height: 20px;
+    color: #000;
+}
+
+
+.radiantthemes-accordion.element-one .card {
+    transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    border: 0px none;
+    margin: 0 0 10px 0;
+    background: transparent;
+
+}
+
+/*Active accordion*/
+.radiantthemes-accordion.element-one .card button.btn.btn-link[aria-expanded="true"] .img-upload {
+    fill: #fff;
+    padding: 18px 10px 18px 0;
+}
+
+.radiantthemes-accordion.element-one .card button.btn.btn-link[aria-expanded="true"] .mb-0 {
+    color: #fff;
+}
+
+.radiantthemes-accordion.element-one button.btn.btn-link[aria-expanded="true"] .card-header:after {
+    color: #fff;
+}
+
+
+/*Normal accordion when [aria-expanded="true"]*/
+.radiantthemes-accordion.element-one .card button.btn.btn-link.collapsed[aria-expanded="true"] .img-upload {
+    fill: #000;
+}
+
+.radiantthemes-accordion.element-one .card button.btn.btn-link.collapsed[aria-expanded="true"] .mb-0 {
+    color: #000;
+}
+
+.radiantthemes-accordion.element-one button.btn.btn-link.collapsed[aria-expanded="true"] .card-header:after {
+    color: #000;
+}
+
+/*Normal accordion when [aria-expanded="false"]*/
+.radiantthemes-accordion.element-one .card button.btn.btn-link.collapsed[aria-expanded="false"] .img-upload {
+    fill: #000;
+    padding: 18px 10px 18px 0;
+}
+
+.radiantthemes-accordion.element-one .card button.btn.btn-link.collapsed[aria-expanded="false"] .mb-0 {
+    color: #000;
+}
+
+.radiantthemes-accordion.element-one button.btn.btn-link.collapsed[aria-expanded="false"] .card-header:after {
+    color: #000;
+}
+
+
+
+@media only screen and (max-width: 767px) {
+    .radiantthemes-accordion.element-one .btn.btn-link .card-header:first-child {
+        width: 100%;
+    }
+
+    .radiantthemes-accordion.element-one .mb-0 {
+        width: 85%;
+    }
+}
+
+/* ================== Accordion ELEMENT-ONE ENDS ================== */
+
+
+/* ================== Accordion ELEMENT-TWO STARTS ================== */
+
+.radiantthemes-accordion.element-two button.btn.btn-link {
+    position: relative;
+    padding: 0 20px;
+    border: 0px none;
+    background: transparent;
+    overflow: hidden;
+}
+
+.radiantthemes-accordion.element-two .card-header {
+    float: left;
+    padding: 0;
+    border: 0px none;
+    background: transparent;
+}
+
+.radiantthemes-accordion.element-two .img-upload {
+    padding: 18px 10px 18px 0;
+    float: left;
+    display: flex;
+}
+
+.radiantthemes-accordion.element-two .mb-0 {
+    float: left;
+    display: flex;
+    font-weight: 600;
+    font-size: 15px;
+    color: #1e1e1e;
+    line-height: 23px;
+    letter-spacing: 0;
+    padding: 15px 0;
+}
+
+.radiantthemes-accordion.element-two .card button.btn.btn-link[aria-expanded="true"] .mb-0 {
+    color: #000;
+}
+
+.radiantthemes-accordion.element-two button.btn.btn-link .card-header:after {
+    display: none;
+}
+
+
+.radiantthemes-accordion.element-two button.btn.btn-link.collapsed .card-header:before {
+    display: none;
+}
+
+.radiantthemes-accordion.element-two .card {
+    transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    border: 0px none;
+    margin: 0 0 10px 0;
+    background: transparent;
+
+}
+
+
+/*Active accordion*/
+.radiantthemes-accordion.element-two .card button.btn.btn-link[aria-expanded="true"] .img-upload {
+    fill: #fff;
+    padding: 18px 10px 18px 0;
+}
+
+.radiantthemes-accordion.element-two .card button.btn.btn-link[aria-expanded="true"] .mb-0 {
+    color: #fff;
+}
+
+.radiantthemes-accordion.element-two button.btn.btn-link[aria-expanded="true"] .card-header:after {
+    color: #fff;
+}
+
+
+/*Normal accordion when [aria-expanded="true"]*/
+.radiantthemes-accordion.element-two .card button.btn.btn-link.collapsed[aria-expanded="true"] .img-upload {
+    fill: #000;
+}
+
+.radiantthemes-accordion.element-two .card button.btn.btn-link.collapsed[aria-expanded="true"] .mb-0 {
+    color: #000;
+}
+
+.radiantthemes-accordion.element-two button.btn.btn-link.collapsed[aria-expanded="true"] .card-header:after {
+    color: #000;
+}
+
+/*Normal accordion when [aria-expanded="false"]*/
+.radiantthemes-accordion.element-two .card button.btn.btn-link.collapsed[aria-expanded="false"] .img-upload {
+    fill: #000;
+    padding: 18px 10px 18px 0;
+}
+
+.radiantthemes-accordion.element-two .card button.btn.btn-link.collapsed[aria-expanded="false"] .mb-0 {
+    color: #000;
+}
+
+.radiantthemes-accordion.element-two button.btn.btn-link.collapsed[aria-expanded="false"] .card-header:after {
+    color: #000;
+}
+
+
+
+@media only screen and (max-width: 767px) {
+    .radiantthemes-accordion.element-two .card-header {
+        width: 100%;
+    }
+
+    .radiantthemes-accordion.element-two .mb-0 {
+        width: 85%;
+    }
+}
+
+/* ================== Accordion ELEMENT-TWO ENDS ================== */
+
+
+/* ================== Accordion ELEMENT-THREE STARTS ================== */
+
+.radiantthemes-accordion.element-three .btn.btn-link .card-header:first-child {
+    border-radius: calc(.25rem - 1px) calc(.25rem - 1px) 0 0;
+    background: transparent;
+    border: 0;
+    padding: 0;
+    display: inline-block;
+    float: left;
+}
+
+.radiantthemes-accordion.element-three .btn.btn-link,
+.radiantthemes-accordion.element-three .btn.btn-link.collapsed {
+    padding: 0 20px;
+}
+
+.radiantthemes-accordion.element-three .btn.btn-link .mb-0 {
+    display: inline-block;
+}
+
+.radiantthemes-accordion.element-three .btn.btn-link h6.mb-0 {
+    padding: 15px 0;
+    text-align: left;
+    display: inline-block;
+    float: left;
+    font-weight: 600;
+    font-size: 15px;
+    color: #1e1e1e;
+    line-height: 23px;
+    letter-spacing: 0;
+}
+
+.radiantthemes-accordion.element-three .card-header {
+    background: transparent;
+    border: none;
+    overflow: hidden;
+    padding: 15px 20px;
+    display: inline-flex;
+    float: left;
+}
+
+.radiantthemes-accordion.element-three .img-upload {
+    padding: 18px 10px 18px 0;
+    float: left;
+    display: flex;
+}
+
+.radiantthemes-accordion.element-three .mb-0 {
+    float: left;
+    display: flex;
+    font-weight: 600;
+    font-size: 15px;
+    color: #1e1e1e;
+    line-height: 23px;
+    letter-spacing: 0;
+    padding: 15px 0;
+}
+
+.radiantthemes-accordion.element-three button.btn.btn-link {
+    width: 100%;
+    text-align: left;
+    position: relative;
+    padding: 0 20px;
+    transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    box-shadow: 0px 0px 30px 0px rgb(0 0 0 / 6%);
+    border-radius: 4px;
+    border: 1px solid #000;
+    font-weight: normal !important;
+    color: #000 !important;
+}
+
+.radiantthemes-accordion.element-three button.btn.btn-link:hover {
+    color: #000 !important;
+}
+
+.radiantthemes-accordion.element-three button.btn.btn-link.collapsed {
+    transform: translateX(0px);
+    -webkit-transform: translateX(0px);
+}
+
+
+
+.radiantthemes-accordion.element-three button.btn.btn-link[aria-expanded="true"] .card-header:after {
+    position: absolute;
+    content: "\002D";
+    top: 15px;
+    right: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 9;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    line-height: 20px;
+    color: #000;
+}
+
+.radiantthemes-accordion.element-three button.btn.btn-link.collapsed[aria-expanded="false"] .card-header:before {
+    position: absolute;
+    content: "\002B";
+    top: 15px;
+    right: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 9;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    line-height: 20px;
+    color: #000;
+}
+
+
+.radiantthemes-accordion.element-three .card {
+    transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    border: 0px none;
+    margin: 0 0 10px 0;
+    background: transparent;
+
+}
+
+/*Active accordion*/
+.radiantthemes-accordion.element-three .card button.btn.btn-link[aria-expanded="true"] .img-upload {
+    fill: #fff;
+    padding: 18px 10px 18px 0;
+}
+
+.radiantthemes-accordion.element-three .card button.btn.btn-link[aria-expanded="true"] .mb-0 {
+    color: #fff;
+}
+
+.radiantthemes-accordion.element-three button.btn.btn-link[aria-expanded="true"] .card-header:after {
+    color: #fff;
+}
+
+
+/*Normal accordion when [aria-expanded="true"]*/
+.radiantthemes-accordion.element-three .card button.btn.btn-link.collapsed[aria-expanded="true"] .img-upload {
+    fill: #000;
+}
+
+.radiantthemes-accordion.element-three .card button.btn.btn-link.collapsed[aria-expanded="true"] .mb-0 {
+    color: #000;
+}
+
+.radiantthemes-accordion.element-three button.btn.btn-link.collapsed[aria-expanded="true"] .card-header:after {
+    color: #000;
+}
+
+/*Normal accordion when [aria-expanded="false"]*/
+.radiantthemes-accordion.element-three .card button.btn.btn-link.collapsed[aria-expanded="false"] .img-upload {
+    fill: #000;
+    padding: 18px 10px 18px 0;
+}
+
+.radiantthemes-accordion.element-three .card button.btn.btn-link.collapsed[aria-expanded="false"] .mb-0 {
+    color: #000;
+}
+
+.radiantthemes-accordion.element-three button.btn.btn-link.collapsed[aria-expanded="false"] .card-header:after {
+    color: #000;
+}
+
+
+
+@media only screen and (max-width: 767px) {
+    .radiantthemes-accordion.element-three .btn.btn-link .card-header:first-child {
+        width: 100%;
+    }
+
+    .radiantthemes-accordion.element-three .mb-0 {
+        width: 85%;
+    }
+}
+
+/* ================== Accordion ELEMENT-THREE ENDS ================== */
+
+
+/* ================== Accordion ELEMENT-FOUR STARTS ================== */
+
+.radiantthemes-accordion.element-four .btn.btn-link .card-header:first-child {
+    border-radius: calc(.25rem - 1px) calc(.25rem - 1px) 0 0;
+    background: transparent;
+    border: 0;
+    padding: 0;
+    display: inline-block;
+    float: left;
+}
+
+.radiantthemes-accordion.element-four .btn.btn-link,
+.radiantthemes-accordion.element-four .btn.btn-link.collapsed {
+    padding: 0 20px;
+}
+
+.radiantthemes-accordion.element-four .btn.btn-link .mb-0 {
+    display: inline-block;
+}
+
+.radiantthemes-accordion.element-four .btn.btn-link h6.mb-0 {
+    padding: 15px 0;
+    text-align: left;
+    display: inline-block;
+    float: left;
+    font-weight: 600;
+    font-size: 15px;
+    color: #1e1e1e;
+    line-height: 23px;
+    letter-spacing: 0;
+}
+
+.radiantthemes-accordion.element-four .card-header {
+    background: transparent;
+    border: none;
+    overflow: hidden;
+    padding: 15px 20px;
+    display: inline-flex;
+    float: left;
+}
+
+.radiantthemes-accordion.element-four .img-upload {
+    padding: 18px 10px 18px 0;
+    float: left;
+    display: flex;
+}
+
+.radiantthemes-accordion.element-four .mb-0 {
+    float: left;
+    display: flex;
+    font-weight: 600;
+    font-size: 17px;
+    color: #1e1e1e;
+    line-height: 27px;
+    letter-spacing: 0;
+    padding: 15px 0;
+}
+
+.radiantthemes-accordion.element-four button.btn.btn-link {
+    width: 100%;
+    text-align: left;
+    position: relative;
+    padding: 0 20px;
+    transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    box-shadow: 0px 0px 30px 0px rgb(0 0 0 / 6%);
+    border-radius: 4px;
+    border: none;
+    background: rgb(244, 105, 134);
+    background: linear-gradient(90deg, rgba(244, 105, 134, 1) 0%, rgba(152, 110, 234, 1) 100%);
+    font-weight: normal !important;
+    color: #000 !important;
+}
+
+.radiantthemes-accordion.element-four button.btn.btn-link:hover {
+    color: #000 !important;
+}
+
+.radiantthemes-accordion.element-four button.btn.btn-link.collapsed {
+    transform: translateX(0px);
+    -webkit-transform: translateX(0px);
+}
+
+
+
+.radiantthemes-accordion.element-four button.btn.btn-link[aria-expanded="true"] .card-header:after {
+    position: absolute;
+    content: "\002D";
+    top: 18px;
+    right: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 9;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    line-height: 20px;
+    color: #000;
+}
+
+.radiantthemes-accordion.element-four button.btn.btn-link.collapsed[aria-expanded="false"] .card-header:before {
+    position: absolute;
+    content: "\002B";
+    top: 18px;
+    right: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 9;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    line-height: 20px;
+    color: #000;
+}
+
+
+.radiantthemes-accordion.element-four .card {
+    transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    border: 0px none;
+    margin: 0 0 10px 0;
+    background: transparent;
+
+}
+
+/*Active accordion*/
+.radiantthemes-accordion.element-four .card button.btn.btn-link[aria-expanded="true"] .img-upload {
+    fill: #fff;
+    padding: 18px 10px 18px 0;
+}
+
+.radiantthemes-accordion.element-four .card button.btn.btn-link[aria-expanded="true"] .mb-0 {
+    color: #fff;
+}
+
+.radiantthemes-accordion.element-four button.btn.btn-link[aria-expanded="true"] .card-header:after {
+    color: #fff;
+}
+
+
+/*Normal accordion when [aria-expanded="true"]*/
+.radiantthemes-accordion.element-four .card button.btn.btn-link.collapsed[aria-expanded="true"] .img-upload {
+    fill: #000;
+}
+
+.radiantthemes-accordion.element-four .card button.btn.btn-link.collapsed[aria-expanded="true"] .mb-0 {
+    color: #000;
+}
+
+.radiantthemes-accordion.element-four button.btn.btn-link.collapsed[aria-expanded="true"] .card-header:after {
+    color: #000;
+}
+
+/*Normal accordion when [aria-expanded="false"]*/
+.radiantthemes-accordion.element-four .card button.btn.btn-link.collapsed[aria-expanded="false"] .img-upload {
+    fill: #000;
+    padding: 18px 10px 18px 0;
+}
+
+.radiantthemes-accordion.element-four .card button.btn.btn-link.collapsed[aria-expanded="false"] .mb-0 {
+    color: #000;
+}
+
+.radiantthemes-accordion.element-four button.btn.btn-link.collapsed[aria-expanded="false"] .card-header:after {
+    color: #000;
+}
+
+
+
+@media only screen and (max-width: 767px) {
+    .radiantthemes-accordion.element-four .btn.btn-link .card-header:first-child {
+        width: 100%;
+    }
+
+    .radiantthemes-accordion.element-four .mb-0 {
+        width: 85%;
+    }
+}
+
+/* ================== Accordion ELEMENT-FOUR ENDS ================== */

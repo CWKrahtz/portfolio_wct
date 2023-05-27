@@ -1,0 +1,6 @@
+2022-03-11T10:34:54+00:00 CRITICAL Allowed memory size of 268435456 bytes exhausted (tried to allocate 20480 bytes) in /home/busia.radiantthemes.com/public_html/wp-includes/meta.php on line 1190
+
+2022-03-11T10:37:13+00:00 CRITICAL Allowed memory size of 268435456 bytes exhausted (tried to allocate 20480 bytes) in /home/busia.radiantthemes.com/public_html/wp-includes/class-wp-object-cache.php on line 446
+
+2022-03-11T10:37:17+00:00 CRITICAL Allowed memory size of 268435456 bytes exhausted (tried to allocate 98304 bytes) in /home/busia.radiantthemes.com/public_html/wp-includes/wp-db.php on line 2128
+

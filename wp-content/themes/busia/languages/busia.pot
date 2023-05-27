@@ -1,0 +1,1586 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: busia\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-04-18 05:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.1; wp-5.9.3\n"
+"X-Domain: busia"
+#: inc/radiantthemes-dashboard/welcome.php:22
+#: inc/radiantthemes-dashboard/install-plugins.php:23
+msgid " is now installed and ready to use!"
+msgstr ""
+#. 1: reviews count 2: product name
+#: woocommerce/single-product-reviews.php:31
+#, php-format
+msgid "%1$s review for %2$s"
+msgid_plural "%1$s reviews for %2$s"
+msgstr[0] ""
+msgstr[1] ""
+#: woocommerce/single-product/rating.php:38
+#, php-format
+msgid "%s  review"
+msgid_plural "%s  reviews"
+msgstr[0] ""
+msgstr[1] ""
+#: inc/template-tags.php:422
+#, php-format
+msgid "%s has been added to your cart."
+msgid_plural "%s have been added to your cart."
+msgstr[0] ""
+msgstr[1] ""
+#. %s location.
+#: woocommerce/cart/cart-totals.php:143
+#, php-format
+msgid "(estimated for %s)"
+msgstr ""
+#: inc/radiantthemes-dashboard/welcome.php:212
+msgid "(min:1000)"
+msgstr ""
+#: inc/radiantthemes-dashboard/welcome.php:166
+#: inc/radiantthemes-dashboard/welcome.php:177
+msgid "(min:12M)"
+msgstr ""
+#: inc/radiantthemes-dashboard/welcome.php:155
+msgid "(min:256M)"
+msgstr ""
+#: inc/radiantthemes-dashboard/welcome.php:189
+msgid "(min:300)"
+msgstr ""
+#: inc/radiantthemes-dashboard/welcome.php:201
+msgid "(min:3000)"
+msgstr ""
+#. used between list items, there is a space after the comma
+#: inc/template-tags.php:330
+msgid ", "
+msgstr ""
+#: template-parts/content-blog-three.php:63
+msgid "0 Comment"
+msgstr ""
+#: template-parts/content-default.php:82 template-parts/content-single.php:39
+msgid "0 Comments"
+msgstr ""
+#: template-parts/content-default.php:84 template-parts/content-single.php:41
+#: template-parts/content-blog-three.php:65
+msgid "1 Comment"
+msgstr ""
+#: inc/customizer.php:3087
+msgid "3 Grids"
+msgstr ""
+#: inc/customizer.php:3088
+msgid "4 Grids"
+msgstr ""
+#: inc/customizer.php:2882
+msgid "404 Error Content"
+msgstr ""
+#: 404.php:28
+msgid "404 image"
+msgstr ""
+#: inc/customizer.php:3089
+msgid "5 Grids"
+msgstr ""
+#: woocommerce/myaccount/form-login.php:99
+msgid "A password will be sent to your email address."
+msgstr ""
+#: inc/radiantthemes-dashboard/welcome.php:94
+msgid "Account that was used to purchase this theme."
+msgstr ""
+#: inc/radiantthemes-dashboard/install-plugins.php:41
+msgid "Activate all plugins"
+msgstr ""
+#: inc/customizer.php:898
+msgid "Activate Preloader"
+msgstr ""
+#: inc/customizer.php:1032
+msgid "Activate Scroll To Top"
+msgstr ""
+#: inc/customizer.php:1127
+msgid "Activate Typekit"
+msgstr ""
+#: inc/radiantthemes-dashboard/install-plugins.php:60
+msgid "Activated"
+msgstr ""
+#: inc/custom-controls.php:339 woocommerce/myaccount/my-address.php:63
+msgid "Add"
+msgstr ""
+#. %s is product title
+#: woocommerce/single-product-reviews.php:69
+msgid "Add a Review"
+msgstr ""
+#: inc/customizer.php:1167 inc/customizer.php:1189
+msgid "Add the Typekit font family name Here."
+msgstr ""
+#: woocommerce/shop-box/shop-box-style-eight.php:39
+msgid "Add to Cart"
+msgstr ""
+#: woocommerce/checkout/form-shipping.php:113
+msgid "Additional information"
+msgstr ""
+#: inc/tgmpa/tgmpa.php:145
+msgid "Advanced Custom Fields"
+msgstr ""
+#. Author Name.
+#: inc/header/banner.php:580 inc/header/banner-default.php:273
+#: inc/header/theme-banner.php:509
+#, php-format
+msgid "All posts by %s"
+msgstr ""
+#: inc/customizer.php:2129 inc/customizer.php:2149
+msgid ""
+"Applies only if Icon is present. (Please Note: This option will work only "
+"for \"Theme Button\" element.)"
+msgstr ""
+#: woocommerce/cart/cart.php:156 woocommerce/checkout/form-coupon.php:63
+#: woocommerce/checkout/form-coupon.php:63
+msgid "Apply coupon"
+msgstr ""
+#: inc/header/banner.php:631 inc/header/banner-default.php:324
+#: inc/header/theme-banner.php:560
+msgid "Archives"
+msgstr ""
+#: inc/customizer.php:3166
+msgid "Author Name"
+msgstr ""
+#: inc/customizer.php:3046
+msgid "Available for all except Blog Style \"Default\" option above."
+msgstr ""
+#: woocommerce/cart/cart.php:90
+msgid "Available on backorder"
+msgstr ""
+#: woocommerce/single-product-reviews.php:114
+msgid "Average"
+msgstr ""
+#: inc/customizer.php:2896
+msgid "Back To Home"
+msgstr ""
+#: inc/customizer.php:1510
+msgid "Background Attachment"
+msgstr ""
+#: inc/customizer.php:1077 inc/customizer.php:2048
+msgid "Background Color"
+msgstr ""
+#: inc/customizer.php:2930
+msgid "Background Image"
+msgstr ""
+#: inc/customizer.php:1533
+msgid "Background Position"
+msgstr ""
+#: inc/customizer.php:1462
+msgid "Background Repeat"
+msgstr ""
+#: inc/customizer.php:1487
+msgid "Background Size"
+msgstr ""
+#: inc/customizer.php:1394
+msgid "Banner None"
+msgstr ""
+#: inc/customizer.php:1386
+msgid "Banner Only"
+msgstr ""
+#: inc/customizer.php:1382
+msgid "Banner-With-Breadcrumb"
+msgstr ""
+#: woocommerce/single-product-reviews.php:69
+#, php-format
+msgid "Be the first to review &ldquo;%s&rdquo;"
+msgstr ""
+#: woocommerce/checkout/form-billing.php:47
+msgid "Billing &amp; Shipping"
+msgstr ""
+#: woocommerce/order/order-details-customer.php:31
+msgid "Billing Address"
+msgstr ""
+#: woocommerce/myaccount/my-address.php:26
+#: woocommerce/myaccount/my-address.php:35
+msgid "Billing address"
+msgstr ""
+#: woocommerce/checkout/form-billing.php:55
+msgid "Billing Details"
+msgstr ""
+#: inc/customizer.php:115 inc/header/banner-default.php:104
+msgid "Blog"
+msgstr ""
+#: inc/customizer.php:231 inc/customizer.php:3045
+msgid "Blog Layout"
+msgstr ""
+#: inc/customizer.php:247
+msgid "Blog Options"
+msgstr ""
+#: inc/customizer.php:239
+msgid "Blog Single Layout"
+msgstr ""
+#: inc/customizer.php:3110
+msgid "Blog Single Page Style"
+msgstr ""
+#: inc/customizer.php:3007
+msgid "Blog Style"
+msgstr ""
+#. Name of the template
+msgid "Blog Style Grid"
+msgstr ""
+#. Name of the template
+msgid "Blog Style List(style3)"
+msgstr ""
+#: inc/customizer.php:2831
+msgid "Blur Radius (px)"
+msgstr ""
+#: inc/customizer.php:388
+msgid "Body Font"
+msgstr ""
+#: inc/customizer.php:2323
+msgid "Border"
+msgstr ""
+#: inc/customizer.php:2605
+msgid "Border Radius"
+msgstr ""
+#: inc/customizer.php:2727
+msgid "Box Shadow"
+msgstr ""
+#: inc/customizer.php:1390
+msgid "Breadcrumb Only"
+msgstr ""
+#: inc/customizer.php:1739
+msgid "Breadcrumb Padding"
+msgstr ""
+#. Name of the theme
+msgid "busia"
+msgstr ""
+#. Description of the theme
+msgid "Busia is a Premium Creative &amp; Modern Agency WordPress Theme."
+msgstr ""
+#: inc/footer/footer-style-default.php:24
+msgid "Busia Theme - Made by "
+msgstr ""
+#: inc/customizer.php:207
+msgid "Button"
+msgstr ""
+#: inc/customizer.php:2201
+msgid "Button Padding"
+msgstr ""
+#: inc/customizer.php:2904
+msgid "Button Text"
+msgstr ""
+#: inc/customizer.php:2024
+msgid "Button Typography"
+msgstr ""
+#. %s: post date.
+#: template-parts/content-single.php:34 inc/template-tags.php:320
+msgid "By"
+msgstr ""
+#: template-parts/content-blog-two.php:27
+msgid "By "
+msgstr ""
+#: inc/template-tags.php:441
+msgid "Career"
+msgstr ""
+#: woocommerce/cart/cart.php:41
+msgid "Cart Items"
+msgstr ""
+#: woocommerce/cart/cart-totals.php:49
+msgid "Cart totals"
+msgstr ""
+#: inc/customizer.php:875
+msgid "Case Studies"
+msgstr ""
+#: inc/customizer.php:3186
+msgid "Categories Name"
+msgstr ""
+#. category name.
+#: inc/header/banner.php:562 inc/header/banner-default.php:255
+#: inc/header/theme-banner.php:491
+#, php-format
+msgid "Category Archives: %s"
+msgstr ""
+#: woocommerce/single-product/meta.php:27
+msgid "Category:"
+msgid_plural "Categories:"
+msgstr[0] ""
+msgstr[1] ""
+#: inc/customizer.php:1543
+msgid "Center Bottom"
+msgstr ""
+#: inc/customizer.php:1542
+msgid "Center Center"
+msgstr ""
+#: inc/customizer.php:1541
+msgid "Center Top"
+msgstr ""
+#: woocommerce/cart/cart-shipping.php:53
+msgid "Change address"
+msgstr ""
+#: inc/customizer.php:1440 inc/customizer.php:2936
+msgid "Change File"
+msgstr ""
+#: inc/customizer.php:707
+msgid "Change Font File"
+msgstr ""
+#: inc/radiantthemes-dashboard/welcome.php:104
+msgid ""
+"Check the ‘Terms and Conditions’ checkbox, then click ‘Create Token’. You’ll "
+"now see the Success! page with your Personal Token displayed."
+msgstr ""
+#: inc/customizer.php:1445 inc/customizer.php:2941
+msgid "Choose File"
+msgstr ""
+#: inc/customizer.php:712
+msgid "Choose Font File"
+msgstr ""
+#: inc/customizer.php:1128
+msgid "Choose if want to activate typekit or not."
+msgstr ""
+#: inc/customizer.php:1377
+msgid "Choose what kind of short header you want to set."
+msgstr ""
+#: woocommerce/single-product/add-to-cart/variable.php:48
+msgid "Clear"
+msgstr ""
+#: inc/radiantthemes-dashboard/install-plugins.php:77
+msgid "Click Here to continue with Demo Import process."
+msgstr ""
+#: inc/radiantthemes-dashboard/welcome.php:84
+msgid "Click HERE to continue with Theme Setup process."
+msgstr ""
+#: woocommerce/checkout/form-coupon.php:51
+msgid "Click here to enter your code"
+msgstr ""
+#: woocommerce/checkout/form-coupon.php:32
+msgid "Click here to login"
+msgstr ""
+#: inc/radiantthemes-dashboard/welcome.php:95
+msgid "Click on this"
+msgstr ""
+#: inc/radiantthemes-dashboard/welcome.php:95
+msgid "Click to Check Screenshot"
+msgstr ""
+#: template-parts/content-default.php:86 template-parts/content-single.php:43
+#: template-parts/content-blog-three.php:67 inc/customizer.php:3248
+msgid "Comments"
+msgstr ""
+#: comments.php:106
+msgid "Comments are closed."
+msgstr ""
+#. 1: comment count number, 2: title.
+#: comments.php:42
+#, php-format
+msgctxt "comments title"
+msgid "%1$s Comment"
+msgid_plural "%1$s Comments"
+msgstr[0] ""
+msgstr[1] ""
+#: inc/tgmpa/tgmpa.php:63
+msgid "Contact Form 7"
+msgstr ""
+#: inc/customizer.php:1493
+msgid "Contain"
+msgstr ""
+#. %s: Name of current post.
+#: template-parts/content-single.php:62
+#, php-format
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+#: inc/template-tags.php:428
+msgid "Continue Shopping"
+msgstr ""
+#: inc/radiantthemes-dashboard/welcome.php:105
+msgid ""
+"Copy and save your Personal Token to a safe place and paste in the above "
+"Text Field."
+msgstr ""
+#: woocommerce/cart/cart.php:156 woocommerce/checkout/form-coupon.php:59
+msgid "Coupon code"
+msgstr ""
+#: woocommerce/cart/cart.php:156
+msgid "Coupon:"
+msgstr ""
+#: inc/customizer.php:1492
+msgid "Cover"
+msgstr ""
+#: woocommerce/checkout/form-billing.php:105
+msgid "Create an account?"
+msgstr ""
+#: inc/radiantthemes-dashboard/welcome.php:154
+#: inc/radiantthemes-dashboard/welcome.php:157
+#: inc/radiantthemes-dashboard/welcome.php:165
+#: inc/radiantthemes-dashboard/welcome.php:168
+#: inc/radiantthemes-dashboard/welcome.php:176
+#: inc/radiantthemes-dashboard/welcome.php:179
+#: inc/radiantthemes-dashboard/welcome.php:188
+#: inc/radiantthemes-dashboard/welcome.php:191
+#: inc/radiantthemes-dashboard/welcome.php:200
+#: inc/radiantthemes-dashboard/welcome.php:203
+#: inc/radiantthemes-dashboard/welcome.php:211
+#: inc/radiantthemes-dashboard/welcome.php:214
+msgid "Currently:"
+msgstr ""
+#: inc/customizer.php:739
+msgid "Custom Body Font"
+msgstr ""
+#: inc/customizer.php:1833
+msgid "Custom Footer"
+msgstr ""
+#: inc/customizer.php:758
+msgid "Custom H1 Font"
+msgstr ""
+#: inc/customizer.php:777
+msgid "Custom H2 Font"
+msgstr ""
+#: inc/customizer.php:796
+msgid "Custom H3 Font"
+msgstr ""
+#: inc/customizer.php:815
+msgid "Custom H4 Font"
+msgstr ""
+#: inc/customizer.php:834
+msgid "Custom H5 Font"
+msgstr ""
+#: inc/customizer.php:853
+msgid "Custom H6 Font"
+msgstr ""
+#: inc/customizer.php:158
+msgid "Custom Slug"
+msgstr ""
+#. Date.
+#: inc/header/banner.php:615 inc/header/banner-default.php:308
+#: inc/header/theme-banner.php:544
+#, php-format
+msgid "Daily Archives: %s"
+msgstr ""
+#: inc/radiantthemes-dashboard/welcome.php:25
+#: inc/radiantthemes-dashboard/install-plugins.php:27
+msgid "Dashboard"
+msgstr ""
+#: inc/customizer.php:2424 inc/customizer.php:2565
+msgid "Dashed"
+msgstr ""
+#: inc/customizer.php:708 inc/customizer.php:1441 inc/customizer.php:2937
+#: inc/customizer.php:3013 inc/customizer.php:3116
+msgid "Default"
+msgstr ""
+#: inc/customizer.php:1829
+msgid "Default Footer"
+msgstr ""
+#: inc/customizer.php:3336
+msgid "Default Shop Box"
+msgstr ""
+#: inc/radiantthemes-dashboard/welcome.php:27
+#: inc/radiantthemes-dashboard/install-plugins.php:30
+msgid "Demo Importer"
+msgstr ""
+#: woocommerce/single-product/tabs/description.php:19
+msgid "Description"
+msgstr ""
+#: inc/customizer.php:1049
+msgid "Direction"
+msgstr ""
+#: inc/radiantthemes-dashboard/welcome.php:122
+msgid "DOCUMENTATION"
+msgstr ""
+#: inc/customizer.php:2425 inc/customizer.php:2566
+msgid "Dotted"
+msgstr ""
+#: inc/customizer.php:2426 inc/customizer.php:2567
+msgid "Double"
+msgstr ""
+#: inc/customizer.php:368
+msgid "Dribbble"
+msgstr ""
+#: woocommerce/myaccount/my-address.php:63
+msgid "Edit"
+msgstr ""
+#: inc/tgmpa/tgmpa.php:51
+msgid "Elementor"
+msgstr ""
+#: inc/customizer.php:1908
+msgid "Elementor Section Template"
+msgstr ""
+#: inc/customizer.php:101
+msgid "Elements"
+msgstr ""
+#: woocommerce/single-product-reviews.php:88
+msgid "Email"
+msgstr ""
+#: woocommerce/myaccount/form-login.php:86
+msgid "Email address"
+msgstr ""
+#: woocommerce/cart/cart-shipping.php:72
+msgid "Enter a different address"
+msgstr ""
+#: inc/radiantthemes-dashboard/welcome.php:96
+msgid ""
+"Enter a unique name in the ‘Token Name’ field. You can use any name that "
+"will be easy to remember and associate, for example: RadiantToken"
+msgstr ""
+#: inc/customizer.php:1166
+msgid "Enter Body typography"
+msgstr ""
+#: inc/customizer.php:2883
+msgid "Enter content to show on 404 page body."
+msgstr ""
+#: inc/customizer.php:1188
+msgid "Enter Headings typography"
+msgstr ""
+#: inc/customizer.php:2910
+msgid "Enter name..."
+msgstr ""
+#: inc/customizer.php:2981
+msgid "Enter Search Page Banner Subtitle"
+msgstr ""
+#: inc/customizer.php:2959
+msgid "Enter Search Page Banner Title"
+msgstr ""
+#: inc/customizer.php:1145
+msgid "Enter Typekit ID Here"
+msgstr ""
+#: woocommerce/cart/cart-shipping.php:65
+msgid "Enter your address to view shipping options."
+msgstr ""
+#: inc/customizer.php:215
+msgid "Error 404"
+msgstr ""
+#: inc/customizer.php:300
+msgid "Facebook"
+msgstr ""
+#: inc/customizer.php:3025
+msgid "Featured List"
+msgstr ""
+#: inc/customizer.php:1515
+msgid "Fixed"
+msgstr ""
+#: inc/customizer.php:150 inc/customizer.php:2088
+msgid "Font Color"
+msgstr ""
+#: inc/customizer.php:682
+msgid "Font Name"
+msgstr ""
+#: inc/customizer.php:200
+msgid "Footer"
+msgstr ""
+#: inc/customizer.php:1875
+msgid "Footer Background Color"
+msgstr ""
+#: inc/footer/footer-style-default.php:24
+msgid "for Themeforest."
+msgstr ""
+#: inc/header/banner-default.php:60 inc/header/theme-banner.php:67
+msgid "Front Page"
+msgstr ""
+#: inc/customizer.php:87 inc/customizer.php:184
+msgid "General"
+msgstr ""
+#: inc/radiantthemes-dashboard/welcome.php:95
+msgid "Generate A Personal Token"
+msgstr ""
+#: inc/customizer.php:683
+msgid "Give this any custom Name"
+msgstr ""
+#: woocommerce/single-product-reviews.php:113
+msgid "Good"
+msgstr ""
+#: inc/customizer.php:3017
+msgid "Grid"
+msgstr ""
+#: inc/customizer.php:567
+msgid "H1 Color"
+msgstr ""
+#: inc/customizer.php:586
+msgid "H2 Color"
+msgstr ""
+#: inc/customizer.php:605
+msgid "H3 Color"
+msgstr ""
+#: inc/customizer.php:624
+msgid "H4 Color"
+msgstr ""
+#: inc/customizer.php:643
+msgid "H5 Color"
+msgstr ""
+#: inc/customizer.php:662
+msgid "H6 Color"
+msgstr ""
+#: woocommerce/checkout/form-coupon.php:51
+msgid "Have a coupon?"
+msgstr ""
+#: inc/customizer.php:94
+msgid "Header"
+msgstr ""
+#: inc/customizer.php:410
+msgid "Heading 1"
+msgstr ""
+#: inc/customizer.php:433
+msgid "Heading 2"
+msgstr ""
+#: inc/customizer.php:456
+msgid "Heading 3"
+msgstr ""
+#: inc/customizer.php:479
+msgid "Heading 4"
+msgstr ""
+#: inc/customizer.php:502
+msgid "Heading 5"
+msgstr ""
+#: inc/customizer.php:525
+msgid "Heading 6"
+msgstr ""
+#: inc/customizer.php:1853
+msgid "Hide footer widget area"
+msgstr ""
+#: inc/customizer.php:2783
+msgid "Horizontal Length (px)"
+msgstr ""
+#: inc/customizer.php:2068
+msgid "Hover Background Color"
+msgstr ""
+#: inc/customizer.php:2464
+msgid "Hover Border"
+msgstr ""
+#: inc/customizer.php:2108
+msgid "Hover Font Color"
+msgstr ""
+#: inc/customizer.php:2148
+msgid "Hover Icon Color"
+msgstr ""
+#: inc/radiantthemes-dashboard/welcome.php:92
+msgid "How to Generate Envato Token?"
+msgstr ""
+#. URI of the theme
+msgid "https://busia.radiantthemes.com/"
+msgstr ""
+#. Author URI of the theme
+msgid "https://radiantthemes.com"
+msgstr ""
+#: inc/customizer.php:1101 inc/customizer.php:2128
+msgid "Icon Color"
+msgstr ""
+#: inc/customizer.php:740 inc/customizer.php:759 inc/customizer.php:778
+#: inc/customizer.php:797 inc/customizer.php:816 inc/customizer.php:835
+#: inc/customizer.php:854
+msgid "If Custom Font is selected then Google Font will be deactivated."
+msgstr ""
+#: woocommerce/checkout/form-coupon.php:56
+msgid "If you have a coupon code, please apply it below."
+msgstr ""
+#: woocommerce/checkout/form-coupon.php:40
+msgid ""
+"If you have shopped with us before, please enter your details below. If you "
+"are a new customer, please proceed to the Billing section."
+msgstr ""
+#: inc/template-tags.php:333
+msgid "In"
+msgstr ""
+#: woocommerce/single-product/short-description.php:31
+msgid "In Stock"
+msgstr ""
+#: inc/customizer.php:1471 inc/customizer.php:1494 inc/customizer.php:1517
+#: inc/customizer.php:1547
+msgid "Inherit"
+msgstr ""
+#: inc/customizer.php:1414
+msgid "Inner Page Banner Background Color"
+msgstr ""
+#: inc/customizer.php:1434
+msgid "Inner Page Banner Background Image"
+msgstr ""
+#: inc/customizer.php:1565
+msgid "Inner Page Banner Border Bottom Color"
+msgstr ""
+#: inc/customizer.php:1714
+msgid "Inner Page Banner Breadcrumb Font"
+msgstr ""
+#: inc/customizer.php:1587
+msgid "Inner Page Banner Padding"
+msgstr ""
+#: inc/customizer.php:1691
+msgid "Inner Page Banner Subtitle Font"
+msgstr ""
+#: inc/customizer.php:1668
+msgid "Inner Page Banner Title Font"
+msgstr ""
+#: inc/customizer.php:2746
+msgid "Inset Shadow"
+msgstr ""
+#: inc/customizer.php:351
+msgid "Instagram"
+msgstr ""
+#: inc/radiantthemes-dashboard/welcome.php:26
+#: inc/radiantthemes-dashboard/install-plugins.php:28
+msgid "Install Plugins"
+msgstr ""
+#: inc/template-tags.php:416
+#, php-format
+msgctxt "Item name in quotes"
+msgid "&ldquo;%s&rdquo;"
+msgstr ""
+#. %s is product title
+#: woocommerce/single-product-reviews.php:71
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+#: inc/customizer.php:1055
+msgid "Left"
+msgstr ""
+#: inc/customizer.php:1540
+msgid "Left Bottom"
+msgstr ""
+#: inc/customizer.php:1539
+msgid "Left Center"
+msgstr ""
+#: inc/customizer.php:3051 inc/customizer.php:3299
+msgid "Left Sidebar"
+msgstr ""
+#: inc/customizer.php:1538
+msgid "Left Top"
+msgstr ""
+#: inc/radiantthemes-dashboard/welcome.php:95
+msgid ""
+"link to be directed to the page where you actually create the token (code). "
+"You should get something similar to the screenshot here:"
+msgstr ""
+#: inc/customizer.php:334
+msgid "LinkedIn"
+msgstr ""
+#: inc/radiantthemes-dashboard/welcome.php:100
+msgid "List purchases the user has made"
+msgstr ""
+#: woocommerce/myaccount/form-login.php:54
+msgid "Log in"
+msgstr ""
+#: woocommerce/myaccount/form-login.php:32 woocommerce/global/form-login.php:57
+#: woocommerce/global/form-login.php:57
+msgid "Login"
+msgstr ""
+#: woocommerce/myaccount/form-login.php:57 woocommerce/global/form-login.php:52
+msgid "Lost your password?"
+msgstr ""
+#: inc/radiantthemes-dashboard/welcome.php:94
+msgid "Make sure you are logged in with the"
+msgstr ""
+#. Name of the template
+msgid "Masonry Layout"
+msgstr ""
+#: inc/radiantthemes-dashboard/welcome.php:183
+msgid "Max. Execution Time"
+msgstr ""
+#: inc/radiantthemes-dashboard/welcome.php:172
+msgid "Max. Post Size"
+msgstr ""
+#: inc/customizer.php:3021
+msgid "Metro"
+msgstr ""
+#: inc/header/banner.php:622 inc/header/banner-default.php:315
+#: inc/header/theme-banner.php:551
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+#. Month and Date.
+#: inc/header/banner.php:621 inc/header/banner-default.php:314
+#: inc/header/theme-banner.php:550
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr ""
+#: woocommerce/single-product/title.php:28
+#: woocommerce/order/order-details-customer.php:34
+#: woocommerce/order/order-details-customer.php:52
+msgid "N/A"
+msgstr ""
+#: woocommerce/single-product-reviews.php:82
+msgid "Name"
+msgstr ""
+#: comments.php:60 comments.php:91
+msgid "Newer Comments"
+msgstr ""
+#: inc/template-tags.php:499
+msgid "Next"
+msgstr ""
+#: single-portfolio.php:47 inc/single/single-two.php:206
+#: inc/single/single-default.php:87 inc/single/single-one.php:97
+msgid "Next Post"
+msgstr ""
+#: inc/customizer.php:3226
+msgid "Next/Previous"
+msgstr ""
+#: inc/customizer.php:1443 inc/customizer.php:2939
+msgid "No file selected"
+msgstr ""
+#: inc/customizer.php:710
+msgid "No Font file selected"
+msgstr ""
+#: woocommerce/cart/mini-cart.php:107
+msgid "No Product in Your Cart."
+msgstr ""
+#: inc/customizer.php:1467
+msgid "No Repeat"
+msgstr ""
+#. $s shipping destination.
+#: woocommerce/cart/cart-shipping.php:71
+#, php-format
+msgid "No shipping options were found for %s."
+msgstr ""
+#: inc/customizer.php:3055 inc/customizer.php:3303
+msgid "No Sidebar"
+msgstr ""
+#: inc/customizer.php:2427 inc/customizer.php:2568
+msgid "None"
+msgstr ""
+#: woocommerce/single-product-reviews.php:115
+msgid "Not that bad"
+msgstr ""
+#: woocommerce/order/order-details.php:93
+msgid "Note:"
+msgstr ""
+#: comments.php:57 comments.php:88
+msgid "Older Comments"
+msgstr ""
+#. 1: title.
+#: comments.php:36
+msgid "One Comment"
+msgstr ""
+#: woocommerce/single-product-reviews.php:125
+msgid ""
+"Only logged in customers who have purchased this product may leave a review."
+msgstr ""
+#: inc/radiantthemes-dashboard/welcome.php:87
+msgid ""
+"Oops! Invalid data has been entered. Please provide correct information to "
+"get access to pre-built designs."
+msgstr ""
+#: template-parts/content-none.php:14
+msgid "Oops! Nothing Found"
+msgstr ""
+#: inc/customizer.php:283
+msgid "Open in new browser tab"
+msgstr ""
+#: inc/radiantthemes-dashboard/welcome.php:134
+msgid "OPEN SUPPORT TICKET"
+msgstr ""
+#: woocommerce/order/order-details.php:45
+msgid "Order Details"
+msgstr ""
+#: woocommerce/shop-box/shop-box-style-eight.php:63
+msgid "out of 5"
+msgstr ""
+#: woocommerce/single-product/short-description.php:33
+msgid "Out of Stock"
+msgstr ""
+#: inc/template-tags.php:480
+msgid "Page"
+msgstr ""
+#: inc/template-functions.php:45
+msgid "Page Not Found"
+msgstr ""
+#: inc/customizer.php:108
+msgid "Pages"
+msgstr ""
+#: template-parts/content-single.php:74 template-parts/content-page.php:21
+msgid "Pages:"
+msgstr ""
+#: woocommerce/myaccount/form-login.php:43
+#: woocommerce/myaccount/form-login.php:93 woocommerce/global/form-login.php:38
+#: woocommerce/global/form-login.php:39
+msgid "Password"
+msgstr ""
+#: woocommerce/single-product-reviews.php:112
+msgid "Perfect"
+msgstr ""
+#: inc/radiantthemes-dashboard/welcome.php:207
+msgid "PHP Max. Input Time"
+msgstr ""
+#: inc/radiantthemes-dashboard/welcome.php:195
+msgid "PHP Max. Input Vars"
+msgstr ""
+#: inc/customizer.php:2069
+msgid "Pick a background color for buttons hover."
+msgstr ""
+#: inc/customizer.php:2049
+msgid "Pick a background color for buttons."
+msgstr ""
+#: inc/customizer.php:955
+msgid "Pick a background color for the Preloader."
+msgstr ""
+#: inc/customizer.php:1078
+msgid "Pick a background color for the Scroll To Top."
+msgstr ""
+#: inc/customizer.php:979
+msgid "Pick a color for the Preloader."
+msgstr ""
+#: inc/customizer.php:1102
+msgid "Pick a icon color for the Scroll To Top."
+msgstr ""
+#: woocommerce/checkout/payment.php:33
+msgid "Please fill in your details above to see available payment methods."
+msgstr ""
+#: inc/radiantthemes-dashboard/welcome.php:67
+msgid "Please register the Theme to get access to pre-built designs."
+msgstr ""
+#: inc/customizer.php:2172
+msgid "Please Select a Hover Style..."
+msgstr ""
+#: inc/customizer.php:3083
+msgid "Please Select the Width"
+msgstr ""
+#. %s: post author.
+#: inc/template-tags.php:297
+#, php-format
+msgctxt "post author"
+msgid "%s"
+msgstr ""
+#: inc/customizer.php:954
+msgid "Preloader Background Color"
+msgstr ""
+#: inc/customizer.php:978
+msgid "Preloader Color"
+msgstr ""
+#: inc/customizer.php:915
+msgid "Preloader Style"
+msgstr ""
+#: inc/customizer.php:1002
+msgid "Preloader Timeout"
+msgstr ""
+#. used between list items, there is a space after the comma
+#: single-portfolio.php:30 inc/single/single-two.php:188
+#: inc/single/single-default.php:69 inc/single/single-one.php:79
+msgid "Previous Post"
+msgstr ""
+#: woocommerce/cart/cart.php:35
+msgid "Price"
+msgstr ""
+#: woocommerce/cart/proceed-to-checkout-button.php:26
+msgid "Proceed to checkout"
+msgstr ""
+#: woocommerce/cart/cart.php:34 woocommerce/order/order-details.php:51
+#: woocommerce/checkout/review-order.php:23
+msgid "Product"
+msgstr ""
+#: woocommerce/cart/cart.php:70
+msgid "Product Details"
+msgstr ""
+#: inc/customizer.php:1971
+msgid "Product Details Footer Template"
+msgstr ""
+#: inc/customizer.php:262
+msgid "Product Listing"
+msgstr ""
+#: woocommerce/global/quantity-input.php:28
+msgctxt "Product quantity input tooltip"
+msgid "Qty"
+msgstr ""
+#: inc/customizer.php:3275
+msgid "Products Per Page"
+msgstr ""
+#: inc/single/single-two.php:80
+msgid "Published By:"
+msgstr ""
+#: inc/single/single-two.php:94
+msgid "Published In:"
+msgstr ""
+#: inc/single/single-two.php:87
+msgid "Published On:"
+msgstr ""
+#: woocommerce/cart/cart.php:36
+msgid "Quantity"
+msgstr ""
+#. Author of the theme
+msgid "RadiantThemes"
+msgstr ""
+#: inc/radiantthemes-dashboard/rt-admin.php:48
+#: inc/radiantthemes-dashboard/rt-admin.php:158
+msgid "radiantthemes"
+msgstr ""
+#: inc/footer/footer-style-default.php:24
+msgid "RadiantThemes "
+msgstr ""
+#: inc/tgmpa/tgmpa.php:89
+msgid "RadiantThemes Addons"
+msgstr ""
+#: inc/tgmpa/tgmpa.php:75
+msgid "RadiantThemes Custom Post Type"
+msgstr ""
+#: woocommerce/single-product-reviews.php:111
+msgid "Rate&hellip;"
+msgstr ""
+#: woocommerce/shop-box/shop-box-style-eight.php:63
+#, php-format
+msgid "Rated %s out of 5"
+msgstr ""
+#: template-parts/content-default.php:128
+#: template-parts/content-blog-one.php:45
+#: template-parts/content-blog-one.php:45
+#: template-parts/content-blog-three.php:78
+#: template-parts/content-blog-three.php:78
+msgid "Read More"
+msgstr ""
+#: woocommerce/myaccount/form-login.php:70
+#: woocommerce/myaccount/form-login.php:107
+#: woocommerce/myaccount/form-login.php:107
+#: inc/radiantthemes-dashboard/welcome.php:70
+msgid "Register"
+msgstr ""
+#: inc/radiantthemes-dashboard/welcome.php:76
+msgid "Register Theme"
+msgstr ""
+#: inc/radiantthemes-dashboard/welcome.php:78
+#: inc/radiantthemes-dashboard/welcome.php:80
+msgid "Registered"
+msgstr ""
+#: inc/single/single-two.php:270
+msgid "Related Articles"
+msgstr ""
+#: woocommerce/single-product/related.php:28
+msgid "Related products"
+msgstr ""
+#: woocommerce/myaccount/form-login.php:51 woocommerce/global/form-login.php:47
+msgid "Remember me"
+msgstr ""
+#: inc/customizer.php:709 inc/customizer.php:1442 inc/customizer.php:2938
+msgid "Remove"
+msgstr ""
+#: woocommerce/cart/cart.php:126 woocommerce/cart/mini-cart.php:43
+msgid "Remove this item"
+msgstr ""
+#: inc/customizer.php:1468
+msgid "Repeat All"
+msgstr ""
+#: inc/customizer.php:1469
+msgid "Repeat Horizontally"
+msgstr ""
+#: inc/customizer.php:1470
+msgid "Repeat Vertically"
+msgstr ""
+#: woocommerce/checkout/form-coupon.php:32
+msgid "Returning customer?"
+msgstr ""
+#: woocommerce/single-product-reviews.php:34
+msgid "Reviews"
+msgstr ""
+#: inc/customizer.php:1056
+msgid "Right"
+msgstr ""
+#: inc/customizer.php:1546
+msgid "Right Bottom"
+msgstr ""
+#: inc/customizer.php:1545
+msgid "Right Center"
+msgstr ""
+#: inc/customizer.php:3059 inc/customizer.php:3307
+msgid "Right Sidebar"
+msgstr ""
+#: inc/customizer.php:1544
+msgid "Right Top"
+msgstr ""
+#: woocommerce/shop-box/shop-box-style-eight.php:16
+msgid "Sale"
+msgstr ""
+#: inc/customizer.php:1516
+msgid "Scroll"
+msgstr ""
+#: inc/customizer.php:168
+msgid "Scroll to Top"
+msgstr ""
+#: inc/customizer.php:223 inc/customizer.php:2950 inc/template-tags.php:394
+#: inc/header/banner.php:750 inc/header/banner-default.php:401
+#: inc/header/theme-banner.php:679
+msgid "Search"
+msgstr ""
+#: woocommerce/product-searchform.php:22
+msgid "Search for:"
+msgstr ""
+#: template-parts/content-none.php:22
+msgid "Search Here..."
+msgstr ""
+#: inc/customizer.php:2980
+msgid "Search Page Subtitle"
+msgstr ""
+#: inc/customizer.php:2958
+msgid "Search Page Title"
+msgstr ""
+#: woocommerce/product-searchform.php:23
+msgid "Search Products&hellip;"
+msgstr ""
+#: inc/template-tags.php:392
+msgid "Search Site"
+msgstr ""
+#: inc/customizer.php:3111
+msgid "Select Blog Single Page Style"
+msgstr ""
+#: inc/customizer.php:3008
+msgid "Select Blog Style"
+msgstr ""
+#: inc/customizer.php:2089
+msgid "Select button font color."
+msgstr ""
+#: inc/customizer.php:2109
+msgid "Select button hover font color."
+msgstr ""
+#: inc/customizer.php:142
+msgid "Select Custom Fonts"
+msgstr ""
+#: inc/customizer.php:1050
+msgid "Select Direction of the Scroll To Top."
+msgstr ""
+#: inc/customizer.php:1439 inc/customizer.php:1444 inc/customizer.php:2935
+#: inc/customizer.php:2940
+msgid "Select File"
+msgstr ""
+#: inc/customizer.php:706 inc/customizer.php:711
+msgid "Select Font File"
+msgstr ""
+#: inc/customizer.php:1823
+msgid "Select Footer Style"
+msgstr ""
+#: inc/customizer.php:1824
+msgid ""
+"Select footer style. (N.B.: Please set style for individual footer on their "
+"respective settings below.)"
+msgstr ""
+#: inc/customizer.php:1214
+msgid "Select Header Style"
+msgstr ""
+#: inc/customizer.php:1280
+msgid "Select Header Style for Blog Details Pages"
+msgstr ""
+#: inc/customizer.php:1247
+msgid "Select Header Style for Blog Page"
+msgstr ""
+#: inc/customizer.php:1344
+msgid "Select Header Style for Product Detail Pages"
+msgstr ""
+#: inc/customizer.php:1312
+msgid "Select Header Style for Shop Page"
+msgstr ""
+#: inc/customizer.php:2168
+msgid "Select Hover Style"
+msgstr ""
+#: inc/customizer.php:2169
+msgid ""
+"Select Hover Style of the \"Button\". (Please Note: This option will work "
+"only for \"Theme Button\" element.)"
+msgstr ""
+#: woocommerce/shop-box/shop-box-style-eight.php:37
+msgid "Select Options"
+msgstr ""
+#: inc/customizer.php:1003
+msgid ""
+"Select preloader timeout after successful page load. Min is 100ms, Max is "
+"5000ms and Default is 500ms."
+msgstr ""
+#: inc/customizer.php:3331
+msgid "Select Shop Box"
+msgstr ""
+#: inc/customizer.php:1376
+msgid "Select Short Header"
+msgstr ""
+#: inc/customizer.php:3294
+msgid "Select Sidebar"
+msgstr ""
+#: inc/customizer.php:3080
+msgid "Select sidebar width for blog pages."
+msgstr ""
+#: inc/customizer.php:916
+msgid "Select Style of the Preloader. (Powered By: \"Loading.io\")"
+msgstr ""
+#: inc/customizer.php:1876
+msgid "Set Background Color for Footer."
+msgstr ""
+#: inc/customizer.php:1415
+msgid ""
+"Set Background Color for Inner Page Banner. (Please Note: This is the "
+"default color of Inner Page Banner section. You can change background color "
+"on respective pages.)"
+msgstr ""
+#: inc/customizer.php:1435
+msgid ""
+"Set Background Image for Inner Page Banner. (Please Note: This is the "
+"default image of Inner Page Banner section. You can change background image "
+"on respective pages.)"
+msgstr ""
+#: inc/customizer.php:2931
+msgid "Set Background Image for Search Page."
+msgstr ""
+#: inc/customizer.php:1566
+msgid "Set Border Bottom Color for Inner Page Banner."
+msgstr ""
+#: inc/customizer.php:1740
+msgid "Set padding for breadcrumb area."
+msgstr ""
+#: inc/customizer.php:1588
+msgid "Set padding for inner page banner area."
+msgstr ""
+#: woocommerce/checkout/form-shipping.php:51
+msgid "Ship to a different address?"
+msgstr ""
+#: woocommerce/cart/cart-totals.php:103 woocommerce/cart/cart-totals.php:105
+msgid "Shipping"
+msgstr ""
+#: woocommerce/order/order-details-customer.php:50
+msgid "Shipping Address"
+msgstr ""
+#: woocommerce/myaccount/my-address.php:27
+msgid "Shipping address"
+msgstr ""
+#: woocommerce/cart/cart-shipping.php:63
+msgid "Shipping costs are calculated during checkout."
+msgstr ""
+#: woocommerce/cart/cart-shipping.php:55
+msgid "Shipping options will be updated during checkout."
+msgstr ""
+#. $s shipping destination.
+#: woocommerce/cart/cart-shipping.php:52
+#, php-format
+msgid "Shipping to %s."
+msgstr ""
+#: inc/customizer.php:261
+msgid "Shop"
+msgstr ""
+#: inc/customizer.php:3330
+msgid "Shop Box Style"
+msgstr ""
+#: inc/customizer.php:1939
+msgid "Shop Footer Template"
+msgstr ""
+#: woocommerce/loop/orderby.php:24
+msgid "Shop order"
+msgstr ""
+#: inc/customizer.php:192
+msgid "Short Header"
+msgstr ""
+#. %d: total results
+#: woocommerce/loop/result-count.php:33
+#, php-format
+msgid "Showing all %d result"
+msgid_plural "Showing all %d results"
+msgstr[0] ""
+msgstr[1] ""
+#: woocommerce/loop/result-count.php:30
+msgid "Showing the single result"
+msgstr ""
+#: inc/customizer.php:3293
+msgid "Sidebar"
+msgstr ""
+#: inc/customizer.php:3079
+msgid "Sidebar Width"
+msgstr ""
+#. $1 and $2 opening and closing emphasis tags respectively
+#: woocommerce/checkout/payment.php:42
+#, php-format
+msgid ""
+"Since your browser does not support JavaScript, or it is disabled, please "
+"ensure you click the %1$sUpdate Totals%2$s button before placing your order. "
+"You may be charged more than the amount stated above if you fail to do so."
+msgstr ""
+#: woocommerce/single-product/title.php:28
+msgid "SKU:"
+msgstr ""
+#: inc/tgmpa/tgmpa.php:132
+msgid "Slider Revolution"
+msgstr ""
+#: inc/customizer.php:255
+msgid "Social Icons"
+msgstr ""
+#: inc/customizer.php:3146
+msgid "Social Sharing Box"
+msgstr ""
+#: inc/customizer.php:2423 inc/customizer.php:2564
+msgid "Solid"
+msgstr ""
+#: template-parts/content-none.php:15
+msgid ""
+"Sorry! but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+#: woocommerce/checkout/payment.php:33
+msgid ""
+"Sorry, it seems that there are no available payment methods for your state. "
+"Please contact us if you require assistance or wish to make alternate "
+"arrangements."
+msgstr ""
+#: woocommerce/single-product/tabs/additional-information.php:19
+msgid "Specification"
+msgstr ""
+#: inc/customizer.php:2855
+msgid "Spread (px)"
+msgstr ""
+#: inc/customizer.php:2004
+msgid "Sticky Footer"
+msgstr ""
+#: inc/customizer.php:2180
+msgid "Style Five (3D Shadow With SlideUp)"
+msgstr ""
+#: inc/customizer.php:2179
+msgid "Style Four (Fade with Icon Right)"
+msgstr ""
+#: inc/customizer.php:3120
+msgid "Style One"
+msgstr ""
+#: inc/customizer.php:2176
+msgid "Style One (Fade)"
+msgstr ""
+#: inc/customizer.php:2182
+msgid "Style Seven (Zoom Out)"
+msgstr ""
+#: inc/customizer.php:2181
+msgid "Style Six (Horizontal Shake)"
+msgstr ""
+#: inc/customizer.php:2178
+msgid "Style Three (Zoom Out)"
+msgstr ""
+#: inc/customizer.php:3124
+msgid "Style Two"
+msgstr ""
+#: inc/customizer.php:2177
+msgid "Style Two (Sweep Right)"
+msgstr ""
+#: woocommerce/single-product-reviews.php:75
+msgid "Submit"
+msgstr ""
+#: woocommerce/product-searchform.php:24
+msgctxt "submit button"
+msgid "Search"
+msgstr ""
+#: woocommerce/cart/cart-totals.php:59 woocommerce/cart/cart-totals.php:61
+#: woocommerce/checkout/review-order.php:24
+#: woocommerce/checkout/review-order.php:68
+msgid "Subtotal"
+msgstr ""
+#: inc/radiantthemes-dashboard/welcome.php:144
+msgid "System Status"
+msgstr ""
+#. Tag Name.
+#: inc/header/banner.php:596 inc/header/banner-default.php:289
+#: inc/header/theme-banner.php:525
+#, php-format
+msgid "Tag Archives: %s"
+msgstr ""
+#: woocommerce/single-product/meta.php:29
+msgid "Tag:"
+msgid_plural "Tags:"
+msgstr[0] ""
+msgstr[1] ""
+#. used between list items, there is a space after the comma
+#: inc/customizer.php:3206 inc/single/single-default.php:38
+#: inc/single/single-one.php:43
+msgid "Tags"
+msgstr ""
+#: inc/customizer.php:548
+msgid "Text Color"
+msgstr ""
+#: inc/radiantthemes-dashboard/welcome.php:83
+msgid "Thank You for registering"
+msgstr ""
+#: woocommerce/myaccount/my-address.php:46
+msgid "The following addresses will be used on the checkout page by default."
+msgstr ""
+#: inc/customizer.php:876
+msgid ""
+"The slug name cannot be the same as a page name. Make sure to regenerate "
+"permalinks, after making changes."
+msgstr ""
+#: inc/radiantthemes-dashboard/welcome.php:118
+msgid "Theme Documentation"
+msgstr ""
+#: inc/radiantthemes-dashboard/welcome.php:29
+#: inc/radiantthemes-dashboard/install-plugins.php:32
+msgid "Theme Options"
+msgstr ""
+#: inc/radiantthemes-dashboard/welcome.php:130
+msgid "Theme Support"
+msgstr ""
+#: inc/radiantthemes-dashboard/welcome.php:94
+msgid "ThemeForest"
+msgstr ""
+#: woocommerce/single-product-reviews.php:59
+msgid "There are no reviews yet."
+msgstr ""
+#: woocommerce/cart/cart-shipping.php:68
+msgid ""
+"There are no shipping options available. Please ensure that your address has "
+"been entered correctly, or contact us if you need any help."
+msgstr ""
+#: inc/radiantthemes-dashboard/install-plugins.php:40
+msgid "These below plugins are required"
+msgstr ""
+#: inc/customizer.php:1940
+msgid ""
+"This footer template applicable for /shop , /my-account , /cart , /checkout "
+"pages"
+msgstr ""
+#: woocommerce/single-product/add-to-cart/variable.php:32
+msgid "This product is currently out of stock and unavailable."
+msgstr ""
+#: inc/customizer.php:1715
+msgid "This will be the default font of your Inner Page Banner Breadcrumb."
+msgstr ""
+#: inc/customizer.php:1692
+msgid "This will be the default font of your inner page banner subtitle."
+msgstr ""
+#: inc/customizer.php:1669
+msgid "This will be the default font of your inner page banner title."
+msgstr ""
+#: inc/customizer.php:1215 inc/customizer.php:1248 inc/customizer.php:1281
+#: inc/customizer.php:1313 inc/customizer.php:1345
+msgid "To disable header, create a \"Blank Header\" and choose that."
+msgstr ""
+#: inc/customizer.php:3167
+msgid "Toggle the switch to show/hide author name on Blog Details Page."
+msgstr ""
+#: inc/customizer.php:3249
+msgid "Toggle the switch to show/hide comments on Blog Details Page."
+msgstr ""
+#: inc/customizer.php:3227
+msgid "Toggle the switch to show/hide pagination on Blog Details Page."
+msgstr ""
+#: inc/customizer.php:3147
+msgid ""
+"Toggle the switch to show/hide Social Sharing icons on Blog details page."
+msgstr ""
+#: inc/customizer.php:3187
+msgid ""
+"Toggle the switch to show/hide the categories on both Blog Page and Blog "
+"Details Page."
+msgstr ""
+#: inc/customizer.php:3207
+msgid ""
+"Toggle the switch to show/hide the tags on both Blog Page and Blog Details "
+"Page."
+msgstr ""
+#: woocommerce/cart/cart-totals.php:195 woocommerce/cart/cart-totals.php:197
+#: woocommerce/cart/cart.php:37 woocommerce/order/order-details.php:52
+#: woocommerce/checkout/review-order.php:115
+msgid "Total"
+msgstr ""
+#: inc/customizer.php:317
+msgid "Twitter"
+msgstr ""
+#: inc/customizer.php:176
+msgid "Typekit Fonts"
+msgstr ""
+#: inc/customizer.php:126
+msgid "Typography"
+msgstr ""
+#: inc/customizer.php:2025
+msgid ""
+"Typography options for buttons. Remember, this will effect all buttons of "
+"this theme. (Please Note: This change will effect all theme buttons, "
+"including Radiants Buttons, Radiant Contact Form Button, Radiant Fancy Text "
+"Box Button.)"
+msgstr ""
+#: inc/radiantthemes-dashboard/welcome.php:97
+msgid ""
+"Under the ‘Permissions Needed’ section, make sure the following checkboxes "
+"are checked:"
+msgstr ""
+#: inc/tgmpa/tgmpa.php:102
+msgid "Unyson"
+msgstr ""
+#: woocommerce/cart/cart.php:161
+msgid "Update cart"
+msgstr ""
+#: woocommerce/checkout/payment.php:44
+msgid "Update totals"
+msgstr ""
+#: inc/customizer.php:134
+msgid "Upload Custom Fonts"
+msgstr ""
+#: inc/customizer.php:702
+msgid "Upload Font File"
+msgstr ""
+#: inc/radiantthemes-dashboard/welcome.php:161
+msgid "Upload Max. Filesize"
+msgstr ""
+#: woocommerce/myaccount/form-login.php:79 woocommerce/global/form-login.php:35
+msgid "Username"
+msgstr ""
+#: woocommerce/global/form-login.php:34
+msgid "Username or email"
+msgstr ""
+#: woocommerce/myaccount/form-login.php:39
+msgid "Username or email address"
+msgstr ""
+#: inc/tgmpa/tgmpa.php:122
+msgid "Variation Swatches for WooCommerce"
+msgstr ""
+#: inc/radiantthemes-dashboard/welcome.php:101
+msgid "Verify purchases the user has made"
+msgstr ""
+#: inc/radiantthemes-dashboard/welcome.php:23
+#: inc/radiantthemes-dashboard/install-plugins.php:24
+#, php-format
+msgid "Version %s"
+msgstr ""
+#: inc/customizer.php:2807
+msgid "Vertical Length (px)"
+msgstr ""
+#: woocommerce/single-product-reviews.php:116
+msgid "Very poor"
+msgstr ""
+#: inc/template-tags.php:430
+msgid "View Cart"
+msgstr ""
+#: inc/radiantthemes-dashboard/welcome.php:99
+msgid "View the user's Envato Account username"
+msgstr ""
+#: comments.php:121
+msgid "Website"
+msgstr ""
+#: inc/radiantthemes-dashboard/welcome.php:21
+#: inc/radiantthemes-dashboard/install-plugins.php:22
+msgid "Welcome to "
+msgstr ""
+#. 1: first result 2: last result 3: total results
+#: woocommerce/loop/result-count.php:38
+#, php-format
+msgctxt "with first and last result"
+msgid "Showing %1$d&ndash;%2$d of %3$d result"
+msgid_plural "Showing %1$d&ndash;%2$d of %3$d results"
+msgstr[0] ""
+msgstr[1] ""
+#: inc/tgmpa/tgmpa.php:112
+msgid "WooCommerce"
+msgstr ""
+#: inc/radiantthemes-dashboard/welcome.php:148
+msgid "WP Memory Limit"
+msgstr ""
+#: inc/header/banner.php:628 inc/header/banner-default.php:321
+#: inc/header/theme-banner.php:557
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+#. Month Date, Year.
+#: inc/header/banner.php:627 inc/header/banner-default.php:320
+#: inc/header/theme-banner.php:556
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr ""
+#: woocommerce/myaccount/my-address.php:67
+msgid "You have not set up this type of address yet."
+msgstr ""
+#. %s opening and closing link tags respectively
+#: woocommerce/single-product-reviews.php:107
+#, php-format
+msgid "You must be %1$slogged in%2$s to post a review."
+msgstr ""
+#: woocommerce/checkout/form-checkout.php:26
+msgid "You must be logged in to checkout."
+msgstr ""
+#: comments.php:120
+msgid "Your Email *"
+msgstr ""
+#: comments.php:119
+msgid "Your Name *"
+msgstr ""
+#: woocommerce/checkout/form-checkout.php:64
+msgid "Your Order"
+msgstr ""
+#: woocommerce/single-product-reviews.php:110
+msgid "Your rating"
+msgstr ""
+#: woocommerce/single-product-reviews.php:119
+msgid "Your review"
+msgstr ""

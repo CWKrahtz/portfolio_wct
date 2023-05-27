@@ -1,0 +1,1974 @@
+/*======================== Team One Starts ========================*/
+.team.element-one .team_box {
+    padding: 0;
+    margin: 0 0 20px 0;
+    overflow: hidden;
+    transition: all .3s ease;
+    z-index: 1;
+    position: relative;
+
+}
+
+.team.element-one .thumbnailsm {
+    overflow: hidden;
+    background: #fff;
+    position: relative;
+    border-radius: 0px;
+    padding: 0;
+    border: none;
+    box-shadow: 0 0 15px rgb(0 0 0 / 15%);
+    text-align: left;
+}
+
+.team.element-one .team_box .thumbnailsm img {
+    transition: opacity .4s, transform .6s;
+    transform: scale(1.1);
+    display: block;
+    width: 100%;
+    height: auto
+}
+
+.team.element-one.team_box:hover .thumbnailsm img {
+    transform: scale(1)
+}
+
+.team.element-one .team_box .team_box-info {
+    margin-top: 0;
+    padding: 20px 0 0 0;
+}
+
+.team.element-one .team_box .team_box-info h4 {
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+    line-height: 30px;
+    letter-spacing: 0px;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+    color: #30353b;
+}
+
+.team.element-one .team_box .team_box-info h4 a {
+    display: inline-block
+}
+
+.team.element-one .team_box .team_box-info h5 {
+    margin: 0;
+    padding-bottom: 10px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.team.element-one .team_box .team_box-info a[href^="mailto:"] {
+    word-wrap: break-word;
+}
+
+.team.element-one .team_box .team_share_icons {
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: auto;
+    width: 100%;
+    padding: 0 10px;
+    text-align: center;
+    background: 0 0;
+    bottom: 10%;
+    transition: opacity .3s, bottom .3s;
+    display: block;
+    margin: 0;
+    white-space: normal;
+    bottom: 0;
+    opacity: 0;
+}
+
+.team.element-one .team_box .team_share_icons ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.team.element-one .team_box .team_share_icons ul li {
+    float: left;
+    margin: 0 0 0 10px;
+}
+
+.team.element-one .team_box .team_share_icons a {
+    display: inline-block;
+    border: none
+}
+
+.team.element-one .team_box .team_share_icons .icon {
+    margin: 0;
+    width: 42px;
+    height: 42px;
+    text-align: center;
+    display: inline-block;
+    padding: 5px !important;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    transform: scale(.5);
+    transition: all .5s ease 0s
+}
+
+.team.element-one .team_box .team_share_icons .icon:hover {
+    background: #696e797d;
+}
+
+.team.element-one .team_box:hover .team_share_icons {
+    opacity: 1;
+    bottom: 20px;
+}
+
+.team.element-one .team_box:hover .team_share_icons .icon {
+    transform: scale(1);
+
+}
+
+.team.element-one .team_box:hover .team_share_icons .icon svg {
+    fill: #fff;
+}
+
+.team.element-one .team_box .link {
+    height: 30px;
+    align-items: center;
+    color: #000;
+    text-decoration: none;
+    display: flex;
+}
+
+/* Hide extra text */
+.team.element-one .team_box .mask {
+    position: relative;
+    padding: 0;
+    height: 20px;
+    margin: 0;
+    overflow: hidden;
+}
+
+.team.element-one .team_box .link-container {
+    transition: transform 0.4s ease;
+}
+
+.team.element-one .team_box .title {
+    display: block;
+    margin: 0;
+    padding-bottom: 0;
+    font-size: 16px;
+    font-weight: 500;
+    transition: transform 0.4s ease;
+    color: #696e79;
+}
+
+.team.element-one .team_box .link-title1 {
+    transform-origin: right center;
+    transition: transform 0.4s ease;
+}
+
+.team.element-one .team_box .link-title2 {
+    transform-origin: left center;
+    transform: rotate(20deg);
+    transition: transform 0.4s ease;
+}
+
+.team.element-one .team_box .link-icon {
+    position: relative;
+    width: 35px;
+    height: 35px;
+    background: #f8f8ff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    overflow: hidden;
+}
+
+.team.element-one .team_box .icon-grid {
+    display: block;
+    transition: transform 0.4s ease;
+}
+
+/* Hover Action*/
+
+/* Move up two texts (20px = font-size) */
+.team.element-one .team_box:hover .link .link-container {
+    transform: translateY(-24px);
+    transition: transform 0.4s ease;
+
+}
+
+/* Rotate texts a little bit */
+.team.element-one .team_box:hover .link .link-title1 {
+    transform: rotate(20deg);
+    transition: transform 0.4s ease;
+}
+
+.team.element-one .team_box:hover .link .link-title2 {
+    transform: rotate(0);
+    transition: transform 0.4s ease;
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .team.element-one .team_box {
+        min-height: 480px;
+    }
+}
+
+@media only screen and (max-width: 767px) {}
+
+/*======================== Team One Ends ========================*/
+
+
+
+/*======================== Team Two Starts ========================*/
+
+.team.element-two {
+    width: 100%;
+}
+
+.team.element-two .rt-team_box {
+    padding: 0;
+    margin: 0 0 20px 0;
+    overflow: hidden;
+    transition: all .3s ease;
+    z-index: 1;
+    position: relative;
+
+}
+
+.team.element-two .thumbnailsm {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    aspect-ratio: 1/1.4;
+    position: relative;
+    padding: 15px 30px;
+    color: #ffffff;
+    backface-visibility: hidden;
+    text-decoration: none;
+    overflow: hidden;
+    border-radius: 4px;
+    box-shadow: 0 0 15px rgb(0 0 0 / 15%);
+    text-align: left;
+    min-height: 400px;
+}
+
+.team.element-two .rt-team_box img {
+    border-radius: 4px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    z-index: -1;
+    object-fit: cover;
+    filter: brightness(100%);
+    transition: filter 200ms ease, transform 250ms linear;
+}
+
+.team.element-two .rt-team_box:hover img {
+    filter: grayscale(0);
+    transform: scale(1.09) rotate(0);
+    filter: brightness(60%);
+    transition: filter 200ms ease, transform 250ms linear;
+}
+
+
+.team.element-two .rt-team_box .rt-team_box-info {
+    margin-top: 0;
+    padding: 20px 0 0 0;
+}
+
+.team.element-two .rt-team_box .rt-team_box-info h4 {
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+    line-height: 30px;
+    letter-spacing: 0px;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+    color: #30353b;
+}
+
+.team.element-two .rt-team_box .rt-team_box-info h4 a {
+    display: inline-block
+}
+
+.team.element-two .rt-team_box .rt-team_box-info p {
+    margin: 0;
+    padding-bottom: 0;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 500;
+    color: #696e79;
+}
+
+.team.element-two .rt-team_box .rt-team_box-info a[href^="mailto:"] {
+    word-wrap: break-word;
+}
+
+.team.element-two .rt-team_box .team_share_icons {
+    position: absolute;
+    right: 20px;
+    height: auto;
+    width: auto;
+    padding: 0;
+    text-align: center;
+    background: 0 0;
+    top: 20px;
+    transition: opacity .3s, bottom .3s;
+    display: block;
+    margin: 0;
+    white-space: normal;
+    bottom: 0;
+    opacity: 1;
+}
+
+.team.element-two .rt-team_box .team_share_icons ul {
+    /*text-align: center;
+display: block;*/
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.team.element-two .rt-team_box .team_share_icons ul li {
+    display: block;
+    width: 100%;
+    margin: 0 0 10px 0;
+}
+
+.team.element-two .rt-team_box .team_share_icons a {
+    display: inline-block;
+    border: none
+}
+
+
+.team.element-two .rt-team_box .team_share_icons .icon {
+    margin: 0;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    display: inline-block;
+    padding: 0 !important;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    /*transform: scale(.5);*/
+    transition: all .5s ease 0s
+}
+
+
+
+.team.element-two .rt-team_box .team_share_icons .icon:hover {
+    background: #696e797d;
+}
+
+.team.element-two .rt-team_box:hover .team_share_icons {
+    opacity: 1;
+    bottom: 10px
+}
+
+.team.element-two .rt-team_box:hover .team_share_icons .icon {
+    transform: scale(1);
+
+}
+
+.team.element-two .rt-team_box .team_share_icons .icon svg {
+    fill: #fff;
+}
+
+.team.element-two .rt-team_box:hover .team_share_icons .icon svg {
+    fill: #fff;
+}
+
+
+
+/* Hover Action*/
+
+
+.team.element-two .rt-team_box .content-box {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 0 20px;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 500;
+    transform: translateY(10px);
+    opacity: 0;
+    visibility: hidden;
+    transition: all cubic-bezier(.4, 0, .2, 1) .4s;
+}
+
+.team.element-two .rt-team_box:hover .content-box {
+    color: #fff;
+    text-decoration: none;
+    transform: translateY(-20px);
+    transition: all cubic-bezier(.4, 0, .2, 1) .4s;
+    opacity: 1;
+    display: block;
+    visibility: visible;
+}
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .team.element-two .rt-team_box {
+        min-height: 480px;
+    }
+}
+
+@media only screen and (max-width: 767px) {}
+
+/*======================== Team Two Ends ========================*/
+
+
+
+/*======================== Team Three Starts ========================*/
+
+.teambox {
+    flex: 0 0 25%;
+    max-width: 25%;
+    display: inline-block;
+    text-align: left;
+    float: left;
+    padding: 0 15px;
+    margin: 30px 0;
+}
+
+
+
+.team.element-three {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    /*aspect-ratio: 1/1.4;*/
+    position: relative;
+    padding: 22px 30px;
+    color: #ffffff;
+    backface-visibility: hidden;
+    text-decoration: none;
+    overflow: hidden;
+    border-radius: 5px;
+    transition: all 0.25s cubic-bezier(.32, .55, .79, .49);
+    min-height: 400px;
+}
+
+.team.element-three:hover {
+    text-decoration: none;
+}
+
+.team.element-three::before,
+.team.element-three::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    /*inset: 0;*/
+    top: 0;
+    left: 0;
+}
+
+.team.element-three::after {
+    background: #000000ad;
+    opacity: 0;
+    transition: 300ms opacity linear;
+}
+
+
+.team.element-three > * {
+    z-index: 1;
+}
+
+
+
+.team.element-three img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    z-index: -1;
+    object-fit: cover;
+    filter: grayscale(0);
+    transition: filter 200ms ease, transform 200ms linear;
+    border-radius: 5px;
+}
+
+.team.element-three a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0;
+}
+
+.team.element-three a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.team.element-three h6,
+.team.element-three p,
+.team.element-three .contact-details {
+    transform: translateY(10ex);
+}
+
+.team.element-three h6 {
+    padding: 0;
+    margin: 0;
+    text-transform: capitalize;
+    line-height: 30px;
+    letter-spacing: 0px;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    color: #fff;
+    will-change: transform, opacity;
+    transition: 300ms opacity linear, 300ms transform ease-in-out;
+}
+
+
+.team.element-three:hover :is(h6, p, .contact-details) {
+    transform: none;
+    color: #fff;
+    text-decoration: none;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    transition: 300ms opacity linear, 300ms transform ease-in-out;
+}
+
+.team.element-three:hover::after,
+.team.element-three:hover::before {
+    opacity: 0.6;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    transition: 300ms opacity linear, 300ms transform ease-in-out;
+}
+
+.team.element-three p {
+    font-size: 16px;
+    font-weight: 400;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    opacity: 0;
+    will-change: transform, opacity;
+    transition: 300ms opacity linear, 300ms transform ease-in-out;
+}
+
+.team.element-three:hover p {
+    opacity: 1;
+    transition-delay: 300ms;
+    color: #fff;
+    text-decoration: none;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    opacity: 1;
+    transition: 300ms opacity linear, 300ms transform ease-in-out;
+}
+
+
+.team.element-three .contact-details {
+    border-top: 1px solid #ececec;
+    padding-top: 10px;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    opacity: 0;
+    will-change: transform, opacity;
+    transition: 300ms opacity linear, 300ms transform ease-in-out;
+}
+
+.team.element-three .contact-details svg {
+    fill: #377DFF;
+    margin-right: 10px;
+}
+
+.team.element-three .contact-details p {
+    margin: 0;
+    padding: 0;
+}
+
+.team.element-three:hover .contact-details {
+    opacity: 1;
+    transition-delay: 300ms;
+    color: #fff;
+    text-decoration: none;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    opacity: 1;
+    transition: 300ms opacity linear, 300ms transform ease-in-out;
+}
+
+
+.team.element-three:hover img {
+    filter: grayscale(0);
+    transform: scale(1.05) rotate(0);
+}
+
+
+.team.element-three .rt-designation {
+    padding: 0;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #fff;
+    display: inline-block;
+    opacity: 1;
+    transform: translate(0px, 100px);
+    will-change: transform, opacity;
+    transition: 300ms opacity linear, 300ms transform ease-in-out;
+}
+
+.team.element-three .rt-designation {
+    fill: #fff;
+}
+
+.team.element-three:hover .rt-designation {
+    opacity: 1;
+    transition-delay: 200ms;
+    transform: translate(0px, 0);
+    color: #fff;
+    text-decoration: none;
+    will-change: transform, opacity;
+    transition: 300ms opacity linear, 300ms transform ease-in-out;
+}
+
+
+
+
+
+.team.element-three .team_share_icons {
+    position: absolute;
+    right: 20px;
+    height: auto;
+    width: auto;
+    padding: 0;
+    text-align: center;
+    background: 0 0;
+    top: 20px;
+    transition: opacity .3s, bottom .3s;
+    display: block;
+    margin: 0;
+    white-space: normal;
+    bottom: 0;
+    opacity: 0;
+}
+
+
+.team.element-three:hover .team_share_icons {
+    opacity: 1;
+    bottom: 20px;
+}
+
+
+.team.element-three .team_share_icons ul {
+    /*text-align: center;
+display: block;*/
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.team.element-three .team_share_icons ul li {
+    display: block;
+    width: 100%;
+    margin: 0 0 10px 0;
+}
+
+.team.element-three .team_share_icons a {
+    display: inline-block;
+    border: none
+}
+
+.team.element-three .team_share_icons .icon {
+    margin: 0;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    display: inline-block;
+    padding: 0 !important;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    /*transform: scale(.5);*/
+    transition: all .5s ease 0s;
+
+}
+
+
+.team.element-three .team_share_icons .icon:hover {
+    background: #696e797d;
+}
+
+.team.element-three:hover .team_share_icons ul li:nth-of-type(1) {
+    animation-duration: 0.2s;
+    animation-name: slidein;
+}
+
+.team.element-three:hover .team_share_icons ul li:nth-of-type(2) {
+    animation-duration: 0.4s;
+    animation-name: slidein;
+}
+
+.team.element-three:hover .team_share_icons ul li:nth-of-type(3) {
+    animation-duration: 0.6s;
+    animation-name: slidein;
+}
+
+
+@keyframes slidein {
+    from {
+        margin-left: 150%;
+        width: 300%;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+.team.element-three .team_share_icons .icon svg {
+    fill: #fff;
+}
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {}
+
+@media only screen and (max-width: 767px) {}
+
+/*======================== Team Three Ends ========================*/
+
+
+/*======================== Team Four Starts ========================*/
+.team.element-four {
+    margin: 0 auto;
+}
+
+.team.element-four .team-item {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    float: left;
+    padding: 0;
+    margin: 0;
+}
+
+.team.element-four .team-item .holder {
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+    padding: 0;
+}
+
+.team.element-four .team-item .holder .pic {
+    position: relative;
+    overflow: hidden;
+    transition: all 0.8s cubic-bezier(0.39, 0.01, 0.36, 0.9);
+}
+
+.team.element-four .team-item .holder .pic img {
+    width: 100%;
+    height: 100%;
+    float: left;
+    transition: .42s ease-out;
+    -webkit-transition: .42s ease-out;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.team.element-four .team-item .holder:hover .pic img {
+    -webkit-transform: translateX(0%);
+    -ms-transform: translateX(0%);
+    transform: translateX(0%);
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+}
+
+.team.element-four .team-item .holder .team-content {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.9);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    height: 100%;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    -webkit-transition: opacity .25s ease;
+    -o-transition: opacity .25s ease;
+    transition: opacity .25s ease;
+    z-index: -1;
+    width: 100%;
+}
+
+.team.element-four .team-item .holder:hover .team-content {
+    opacity: 1;
+    z-index: 1;
+}
+
+.team.element-four .team-item .holder .team-content .team-content-inner {
+    -webkit-transform: translate3d(-40px, 0, 0) skewX(-15deg);
+    transform: translate3d(-40px, 0, 0) skewX(-15deg);
+    -webkit-transition: -webkit-transform 0s .3s;
+    transition: -webkit-transform 0s .3s;
+    -o-transition: transform 0s .3s;
+    transition: transform 0s .3s;
+    transition: transform 0s .3s, -webkit-transform 0s .3s;
+}
+
+.team.element-four .team-item .holder:hover .team-content-inner {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    -webkit-transition: -webkit-transform .4s cubic-bezier(.165, .84, .44, 1);
+    transition: -webkit-transform .4s cubic-bezier(.165, .84, .44, 1);
+    -o-transition: transform .4s cubic-bezier(.165, .84, .44, 1);
+    transition: transform .4s cubic-bezier(.165, .84, .44, 1);
+    transition: transform .4s cubic-bezier(.165, .84, .44, 1), -webkit-transform .4s cubic-bezier(.165, .84, .44, 1);
+}
+
+.team.element-four .team-item .holder .team-content .team-role {
+    margin: 0;
+}
+
+.team.element-four .team-item .holder .team-content .team-title {
+    margin: 0px;
+    color: #000;
+    -ms-word-wrap: break-word;
+    word-wrap: break-word;
+}
+
+.team.element-four .team-item .holder .team-content .team-member-social-icon-group {
+    margin: 0;
+    display: none;
+}
+
+.team.element-four .team-item .holder .team-content .team-member-social-icon-group .team-member-social-icon {
+    font-size: 16px;
+    margin-right: 14px;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-transition: opacity .25s ease;
+    -o-transition: opacity .25s ease;
+    transition: opacity .25s ease;
+    float: left;
+    width: 30px;
+    height: 30px;
+    background: #000;
+    line-height: 34px;
+    text-align: center;
+}
+
+.team.element-four .team-item .holder .team-content .team-member-social-icon:hover {
+    text-decoration: none;
+    opacity: 0.6;
+}
+
+.team.element-four .team-item .holder .team-content .team-member-social-icon a {
+    color: #fff;
+}
+
+.team.element-four .team-item .holder .team-content .team-member-social-icon a:hover {
+    text-decoration: none;
+}
+
+.team.element-four .team-item.swiper-slide {
+    margin-right: 0 !important;
+}
+
+@media only screen and (max-width:767px) {
+    .team.element-four .team-item {
+        width: 100% !important;
+        padding: 0px;
+        padding-bottom: 0px;
+    }
+}
+
+/*======================== Team Four Ends ========================*/
+
+
+/*======================== Team Five Starts ========================*/
+.team.element-five .rt-team_box {
+    padding: 0;
+    margin: 0 30px 20px 0;
+    overflow: hidden;
+    transition: all .3s ease;
+    z-index: 1;
+    position: relative;
+
+}
+
+.team.element-five .rt-thumbnailsm {
+    overflow: hidden;
+    background: #fff;
+    position: relative;
+    border-radius: 4px;
+    padding: 0;
+    border: none;
+    box-shadow: 0 0 15px rgb(0 0 0 / 15%);
+    text-align: left;
+    margin: 0;
+}
+
+.team.element-five .rt-team_box .rt-thumbnailsm img {
+    transition: opacity .4s, transform .6s;
+    transform: scale(1.1);
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.team.element-five.rt-team_box:hover .rt-thumbnailsm img {
+    transform: scale(1)
+}
+
+
+.team.element-five .rt-team_box .rt-team_box-info {
+    margin-top: 0;
+    padding: 0;
+    vertical-align: middle;
+    z-index: 20;
+    position: absolute;
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+    -webkit-transform-origin: 0 top;
+    -ms-transform-origin: 0 top;
+    transform-origin: 0 top;
+    display: block;
+    top: 0;
+    left: 100%;
+    width: 100%;
+
+}
+
+.team.element-five .rt-team_box .rt-team_box-info a {
+    display: table;
+    width: 430px;
+    height: 100%;
+}
+
+.team.element-five .rt-team_box .rt-team_box-info a h4 {
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    font-size: 25px;
+    letter-spacing: 0px;
+    line-height: 35px;
+    color: #30353b;
+    font-weight: 400;
+    display: block;
+}
+
+.team.element-five .rt-team_box .rt-team_box-info h6 {
+    margin: 0;
+    width: 430px;
+    text-transform: uppercase;
+    padding-bottom: 0;
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 28px;
+    color: #696e79;
+}
+
+.team.element-five .rt-team_box .team_share_icons {
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: auto;
+    width: 100%;
+    padding: 0 10px;
+    text-align: center;
+    background: 0 0;
+    bottom: 10%;
+    transition: opacity .3s, bottom .3s;
+    display: block;
+    margin: 0;
+    white-space: normal;
+    bottom: 0;
+    opacity: 0;
+}
+
+.team.element-five .rt-team_box .team_share_icons ul {
+    /*text-align: center;
+display: block;*/
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.team.element-five .rt-team_box .team_share_icons ul li {
+    /*text-align: center;
+    display: inline-block;*/
+    float: left;
+    margin: 0 0 0 10px;
+}
+
+.team.element-five .rt-team_box .team_share_icons a {
+    display: inline-block;
+    border: none
+}
+
+
+.team.element-five .rt-team_box .team_share_icons .icon {
+    margin: 0;
+    width: 42px;
+    height: 42px;
+    text-align: center;
+    display: inline-block;
+    padding: 5px 10px !important;
+    border-radius: 50%;
+    border: 1px solid #696e79;
+    transform: scale(.5);
+    transition: all .5s ease 0s
+}
+
+.team.element-five .rt-team_box .team_share_icons .icon:hover {
+    background: #ffffff75;
+}
+
+.team.element-five .rt-team_box:hover .team_share_icons {
+    opacity: 1;
+    bottom: 20px;
+}
+
+.team.element-five .rt-team_box:hover .team_share_icons .icon {
+    transform: scale(1);
+
+}
+
+
+.team.element-five .rt-team_box:hover .team_share_icons .icon svg {
+    fill: #696e79;
+}
+
+
+/*TEXT EFFECT*/
+
+@-webkit-keyframes jump {
+    50% {
+        transform: translateY(-30%);
+    }
+}
+
+@keyframes jump {
+    50% {
+        transform: translateY(-30%);
+    }
+}
+
+@-webkit-keyframes upscale {
+    50% {
+        transform: scale(1.5);
+    }
+}
+
+@keyframes upscale {
+    50% {
+        transform: scale(1.5);
+    }
+}
+
+@-webkit-keyframes spin {
+    50% {
+        transform: rotate(180deg);
+    }
+}
+
+@keyframes spin {
+    50% {
+        transform: rotate(180deg);
+    }
+}
+
+@-webkit-keyframes squash {
+    50% {
+        transform: scaleY(0);
+    }
+}
+
+@keyframes squash {
+    50% {
+        transform: scaleY(0);
+    }
+}
+
+@-webkit-keyframes skew {
+    50% {
+        transform: skew(-30deg);
+    }
+}
+
+@keyframes skew {
+    50% {
+        transform: skew(-30deg);
+    }
+}
+
+@-webkit-keyframes leap {
+    50% {
+        transform: translateY(-50%) rotate(-15deg);
+    }
+}
+
+@keyframes leap {
+    50% {
+        transform: translateY(-50%) rotate(-15deg);
+    }
+}
+
+@-webkit-keyframes fade {
+    50% {
+        transform: translateY(50%);
+        opacity: 0;
+    }
+}
+
+@keyframes fade {
+    50% {
+        transform: translateY(50%);
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes sheen {
+    50% {
+        transform: translateY(-10%);
+        color: #eee;
+    }
+}
+
+@keyframes sheen {
+    50% {
+        transform: translateY(-10%);
+        color: #eee;
+    }
+}
+
+@-webkit-keyframes xspin {
+    50% {
+        transform: scaleX(0);
+    }
+}
+
+@keyframes xspin {
+    50% {
+        transform: scaleX(0);
+    }
+}
+
+
+.team.element-five .rt-team_box:hover .rt-team_box-info a h4.wobble span {
+    display: inline-block;
+    pointer-events: none;
+}
+
+.team.element-five .rt-team_box:hover .rt-team_box-info a h4.wobble span.jump {
+    -webkit-animation: jump 0.5s 1;
+    animation: jump 0.5s 1;
+}
+
+.team.element-five .rt-team_box:hover .rt-team_box-info a h4.wobble span.upscale {
+    -webkit-animation: upscale 0.5s 1;
+    animation: upscale 0.5s 1;
+}
+
+.team.element-five .rt-team_box:hover .rt-team_box-info a h4.wobble span.spin {
+    -webkit-animation: spin 0.5s 1;
+    animation: spin 0.5s 1;
+}
+
+.team.element-five .rt-team_box:hover .rt-team_box-info a h4.wobble span.skew {
+    -webkit-animation: skew 0.5s 1;
+    animation: skew 0.5s 1;
+}
+
+.team.element-five .rt-team_box:hover .rt-team_box-info a h4.wobble span.squash {
+    -webkit-animation: squash 0.5s 1;
+    animation: squash 0.5s 1;
+    transform-origin: bottom;
+}
+
+.team.element-five .rt-team_box:hover .rt-team_box-info a h4.wobble span.leap {
+    -webkit-animation: leap 0.7s 1;
+    animation: leap 0.7s 1;
+}
+
+.team.element-five .rt-team_box:hover .rt-team_box-info a h4.wobble span.fade {
+    -webkit-animation: fade 0.5s 1;
+    animation: fade 0.5s 1;
+}
+
+.team.element-five .rt-team_box:hover .rt-team_box-info a h4.wobble span.sheen {
+    -webkit-animation: sheen 0.3s 1;
+    animation: sheen 0.3s 1;
+}
+
+.team.element-five .rt-team_box:hover .rt-team_box-info a h4.wobble span.xspin {
+    -webkit-animation: xspin 0.5s 1;
+    animation: xspin 0.5s 1;
+}
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .team.element-five .rt-team_box {
+        min-height: 480px;
+    }
+}
+
+@media only screen and (max-width: 767px) {}
+
+
+/*======================== Team Five Ends ========================*/
+
+
+/*======================== Team Six Starts ========================*/
+
+.team.element-six {
+    margin: 0;
+    padding: 0;
+}
+
+.team.element-six .rt-team_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    /*    aspect-ratio: 1/1.5;*/
+    position: relative;
+    padding: 0;
+    color: #ffffff;
+    backface-visibility: hidden;
+    text-decoration: none;
+    overflow: hidden;
+    border-radius: 5px;
+    transition: all 0.25s cubic-bezier(.32, .55, .79, .49);
+    min-height: 400px;
+}
+
+.team.element-six .rt-team_box:hover {
+    text-decoration: none;
+}
+
+.team.element-six .rt-team_box::before,
+.team.element-six .rt-team_box::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    /*inset: 0;*/
+    top: 0;
+    left: 0;
+}
+
+.team.element-six .rt-team_box::after {
+    background: #000000ad;
+    opacity: 0;
+    transition: 300ms opacity linear;
+}
+
+
+.team.element-six .rt-team_box > * {
+    z-index: 1;
+}
+
+
+
+.team.element-six .rt-team_box img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    z-index: -1;
+    object-fit: cover;
+    filter: brightness(100%);
+    transition: filter 200ms ease, transform 250ms linear;
+    border-radius: 5px;
+}
+
+.team.element-six .rt-team_box:hover img {
+    filter: grayscale(0);
+    transform: scale(1.09) rotate(0);
+    filter: brightness(60%);
+    transition: filter 200ms ease, transform 250ms linear;
+}
+
+.team.element-six .rt-team_box a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.team.element-six .rt-team_box a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.team.element-six .rt-team_box .team_share_icons {
+    position: relative;
+    left: 0;
+    height: 400px;
+    width: 55px;
+    padding: 20px 10px;
+    text-align: center;
+    background: #000;
+    top: 0;
+    transition: opacity .3s, bottom .3s;
+    display: block;
+    margin: 0;
+    white-space: normal;
+    bottom: 0;
+    top: 0;
+    opacity: 0;
+    z-index: 999;
+}
+
+
+.team.element-six .rt-team_box:hover .team_share_icons {
+    opacity: 1;
+}
+
+
+.team.element-six .rt-team_box .team_share_icons ul {
+    /*text-align: center;
+display: block;*/
+    list-style-type: none;
+    margin: 0;
+    padding: 0 !important;
+    float: left;
+}
+
+.team.element-six .rt-team_box .team_share_icons ul li {
+    display: block;
+    width: 100%;
+    margin: 0 0 10px 0;
+}
+
+.team.element-six .rt-team_box .team_share_icons a {
+    display: inline-block;
+    border: none
+}
+
+.team.element-six .rt-team_box .team_share_icons .icon {
+    margin: 0;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    display: inline-block;
+    padding: 0 !important;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    /*transform: scale(.5);*/
+    transition: all .5s ease 0s;
+
+}
+
+
+.team.element-six .rt-team_box .team_share_icons .icon:hover {
+    background: #696e797d;
+}
+
+.team.element-six .rt-team_box:hover .team_share_icons ul li:nth-of-type(1) {
+    animation-duration: 0.2s;
+    animation-name: slidein;
+}
+
+.team.element-six .rt-team_box:hover .team_share_icons ul li:nth-of-type(2) {
+    animation-duration: 0.4s;
+    animation-name: slidein;
+}
+
+.team.element-six .rt-team_box:hover .team_share_icons ul li:nth-of-type(3) {
+    animation-duration: 0.6s;
+    animation-name: slidein;
+}
+
+
+@keyframes slidein {
+    from {
+        margin-left: -150%;
+        width: 300%;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+.team.element-six .rt-team_box .team_share_icons .icon svg {
+    fill: #fff;
+}
+
+
+
+.team.element-six .rt-team_box .team_share_icons .team-data-area {
+    margin-top: 0;
+    padding: 0;
+    display: inline-block;
+    vertical-align: middle;
+    z-index: 99;
+    position: absolute;
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    -webkit-transform-origin: 0 top;
+    -ms-transform-origin: 0 top;
+    transform-origin: 0 top;
+    display: block;
+    bottom: -20px;
+    left: 19%;
+    width: max-content;
+    float: right;
+    opacity: 0;
+    will-change: transform, opacity;
+    transition: 300ms opacity linear, 300ms transform ease-in-out;
+}
+
+
+.team.element-six .rt-team_box:hover .team_share_icons .team-data-area {
+    transition-delay: 300ms;
+    color: #fff;
+    opacity: 1;
+    transition: 300ms opacity linear, 300ms transform ease-in-out;
+}
+
+.team.element-six .rt-team_box .team_share_icons .team-data-area .team-member,
+.team.element-six .rt-team_box .team_share_icons .team-data-area .team-designation {
+    float: left;
+    display: inline-flex;
+}
+
+.team.element-six .rt-team_box .team_share_icons .team-data-area .team-member a h4 {
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+    font-size: 25px;
+    letter-spacing: 0px;
+    line-height: 35px;
+    color: #f3f3f3;
+    font-weight: 400;
+
+}
+
+.team.element-six .rt-team_box .team_share_icons .team-data-area .team-designation h6 {
+    margin: 0;
+    text-transform: capitalize;
+    padding-bottom: 0;
+    font-size: 16px;
+    letter-spacing: 0px;
+    line-height: 35px;
+    font-weight: 500;
+    color: #d1d3d7;
+}
+
+.team.element-six .rt-team_box .team_share_icons .team-data-area .team-designation h6::before {
+    content: "/";
+    /*inset: 0;*/
+    top: 0;
+    left: 0;
+    margin-left: 5px;
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+    .team.element-six .rt-team_box {
+        margin: 15px 0;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .team.element-six .rt-team_box {
+        margin: 15px 0;
+    }
+
+}
+
+/*======================== Team Six Ends ========================*/
+
+
+/*======================== Team Seven Starts ========================*/
+.team.element-seven .rt-professionals {
+    padding: 0;
+    margin: 0 0 20px 0;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    z-index: 1;
+    position: relative;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.team.element-seven .rt-professionals img {
+    width: 269px;
+    height: 269px;
+    margin-bottom: 30px;
+    display: block;
+    border-radius: 100%;
+}
+
+.team.element-seven .team-member-social-icon-group {
+    /*overflow: hidden;*/
+    background: #fff;
+    position: relative;
+    border-radius: 8px;
+    padding: 0;
+    border: none;
+}
+
+.team.element-seven .rt-professionals .team-member-social-icon-group img {
+    transition: opacity 0.4s, transform 0.6s;
+    transform: scale(1.1);
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.team.element-seven.rt-professionals:hover .team-member-social-icon-group img {
+    transform: scale(1);
+}
+
+.team.element-seven .rt-professionals .rt-professionals-info {
+    margin-top: 0;
+    padding: 0;
+}
+
+.team.element-seven .rt-professionals .rt-professionals-info h6 {
+    margin: 0;
+    padding: 0;
+    color: #000;
+}
+
+.team.element-seven .rt-professionals .rt-professionals-info p a {
+    display: inline-block;
+}
+
+.team.element-seven .rt-professionals .rt-professionals-info p {
+    margin: 0;
+    padding: 0;
+}
+
+.team.element-seven .rt-professionals .rt-professionals-info a[href^="mailto:"] {
+    word-wrap: break-word;
+}
+
+.team.element-seven .rt-professionals .team-member-social-icon {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    height: auto;
+    width: 75%;
+    padding: 0;
+    text-align: center;
+    background: #2f0b81;
+    background: -moz-linear-gradient(to right, #0058de 0%, #00c4ff 100%);
+    background: -webkit-linear-gradient(to right, #0058de 0%, #00c4ff 100%);
+    background: linear-gradient(to right, #0058de 0%, #00c4ff 100%);
+    border-radius: 4px;
+    bottom: 35%;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    text-align: center;
+    display: block;
+    white-space: normal;
+    opacity: 0;
+}
+
+.team.element-seven .rt-professionals .team-member-social-icon a {
+    display: inline-block;
+    border: none;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    padding: 10px 15px;
+    font-weight: 500;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+}
+
+.team.element-seven .rt-professionals .team-member-social-icon:hover {
+    background: #0c56c4;
+    background: -moz-linear-gradient(left, #00c4ff 0%, #0058de 100%);
+    background: -webkit-linear-gradient(left, #00c4ff 0%, #0058de 100%);
+    background: linear-gradient(to right, #00c4ff 0%, #0058de 100%);
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+}
+
+.team.element-seven .rt-professionals:hover .team-member-social-icon {
+    opacity: 1;
+    bottom: 20px;
+}
+
+.team.element-seven .rt-professionals .team-member-social-icon ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    display: block;
+}
+
+.team.element-seven .rt-professionals .team-member-social-icon ul li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    display: inline-block;
+}
+
+.team.element-seven .rt-professionals .team-member-social-icon ul li a svg {
+    fill: #fff;
+}
+
+/*======================== Team Seven Ends ========================*/
+
+
+/*======================== Team Eight Starts ========================*/
+
+.team.element-eight .owl-origin {
+    -webkit-perspective: 1200px;
+    -webkit-perspective-origin-x: 50%;
+    -webkit-perspective-origin-y: 50%;
+    -moz-perspective: 1200px;
+    -moz-perspective-origin-x: 50%;
+    -moz-perspective-origin-y: 50%;
+    perspective: 1200px;
+}
+
+
+/* CUSTOM USER OPTIONS */
+
+.team.element-eight .team-item {
+    margin: 0;
+    background: #fff;
+    color: #333;
+    padding: 0 15px;
+    float: left;
+    margin-bottom: 30px;
+    width: 33.3333%;
+}
+
+.team.element-eight .team-item img {
+    width: 100%;
+    border-radius: 0px;
+}
+
+
+.team.element-eight .team-item:nth-of-type(2) {
+    margin-top: 50px;
+}
+
+.team.element-eight .team-item.swiper-slide:nth-of-type(2n+1) {
+    margin-top: 50px;
+}
+
+.team.element-eight .team-item.swiper-slide {
+    margin: 0;
+    background: transparent;
+    color: #333;
+    padding: 0;
+    float: left;
+    margin-bottom: 30px;
+    width: 33.3333%;
+}
+
+.team.element-eight .team-hoverfx .team_detail_bx {
+    position: absolute;
+    z-index: 1;
+    -webkit-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    height: auto;
+    padding: 16px;
+    width: 300px;
+    bottom: 45%;
+    text-align: center;
+    right: -119px;
+    display: block;
+    background: #18191d;
+    opacity: 1;
+    -webkit-transition: right .5s, opacity .5s;
+    -o-transition: right .5s, opacity .5s;
+    transition: right .5s, opacity .5s
+}
+
+.team.element-eight .team-hoverfx:hover .team_detail_bx {
+    right: -160px;
+    opacity: 0
+}
+
+
+.team.element-eight .team_detail_bx p {
+    color: #fff;
+    font-size: 16px;
+    line-height: 28px;
+    text-transform: capitalize;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.team.element-eight .team-hoverfx {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+
+}
+
+.team.element-eight .team-hoverfx img {
+    /*position: absolute;*/
+    position: relative;
+    left: 0;
+    width: 100%;
+    padding: 0;
+    top: 0;
+    object-fit: cover;
+    filter: brightness(100%);
+    transition: filter 200ms ease, transform 250ms linear;
+}
+
+.team.element-eight .team-hoverfx:hover img {
+    filter: grayscale(0);
+    transform: scale(1.09) rotate(0);
+    filter: brightness(60%);
+    transition: filter 200ms ease, transform 250ms linear;
+}
+
+
+.team.element-eight .team-hoverfx:before {
+    display: inline-block;
+    padding-top: 60%;
+    content: '';
+    vertical-align: middle;
+}
+
+.team.element-eight .team-hoverfx:before,
+.team-figure {
+    position: absolute;
+    top: 52%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 2;
+    display: inline-block;
+    padding: 5px 30px;
+    /*max-width: 100%;*/
+    width: 100%;
+    color: #ecf0f1;
+    vertical-align: middle;
+    text-transform: capitalize;
+    font-size: 14px;
+    opacity: 0;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition-property: all .3s ease;
+}
+
+.team.element-eight .team-hoverfx .team-figure ul {
+    margin: 0;
+    padding: 0;
+    display: block;
+    text-align: center;
+    list-style-type: none
+}
+
+.team.element-eight .team-hoverfx .team-figure ul li {
+    margin: 0 5px;
+    text-align: center;
+    display: inline-block;
+    list-style-type: none;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    display: inline-block;
+    padding: 2px !important;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    /*transform: scale(.5);*/
+    transform: scale(.5);
+    transition: all .5s ease 0s;
+}
+
+/*.team.element-eight .team-hoverfx:hover .team-figure ul li {
+    transform: scale(1);
+
+}*/
+
+.team.element-eight .team-hoverfx:hover .team-figure ul li:nth-of-type(1) {
+    animation-delay: 2s;
+    transform: scale(1);
+    transition: all .5s ease 0s;
+}
+
+.team.element-eight .team-hoverfx:hover .team-figure ul li:nth-of-type(2) {
+    animation-delay: 6s;
+    transform: scale(1);
+    transition: all .5s ease 0s;
+}
+
+.team.element-eight .team-hoverfx:hover .team-figure ul li:nth-of-type(3) {
+    animation-delay: 8s;
+    transform: scale(1);
+    transition: all .5s ease 0s;
+}
+
+
+.team.element-eight .team-hoverfx .team-figure ul li a svg {
+    fill: #fff;
+}
+
+.team.element-eight .team-hoverfx .team-figure:hover {
+    font-size: 14px;
+    color: #fff;
+}
+
+.team.element-eight .team-hoverfx .team-overlay {
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    padding: 0;
+    height: 100%;
+    background-color: rgb(0 0 0 / 18%);
+    opacity: 0;
+    transition: all cubic-bezier(.4, 0, .2, 1) .4s;
+}
+
+.team.element-eight .team-item:hover .team-figure,
+.team.element-eight .team-item:hover .team-data,
+.team.element-eight .team-item:hover .team-overlay {
+    opacity: 1;
+    transition: all cubic-bezier(.4, 0, .2, 1) .4s;
+}
+
+.team.element-eight .team-hoverfx:before,
+.team-data {
+    position: absolute;
+    top: 40%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 2;
+    display: inline-block;
+    padding: 0;
+    /*max-width: 100%;*/
+    width: 100%;
+    color: #ecf0f1;
+    vertical-align: middle;
+    text-transform: capitalize;
+    font-size: 14px;
+    opacity: 0;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition-property: all .3s ease;
+}
+
+.team.element-eight .team-hoverfx .team-data a h3 {
+    color: #fff;
+    text-decoration: none;
+    font-size: 22px;
+    padding-bottom: 0;
+    line-height: 22px;
+    text-transform: capitalize;
+    padding-top: 0;
+    margin: 0;
+}
+
+.team.element-eight .team-hoverfx .team-data a h3:hover {
+    color: #fff;
+    text-decoration: none !important;
+}
+
+
+.team.element-eight .team-hoverfx .team-data p {
+    color: #AFB2BB;
+    font-size: 16px;
+    line-height: 16px;
+    padding-top: 10px;
+    text-transform: capitalize;
+
+}
+
+.team.element-eight .team-hoverfx .team-data p:hover {
+    color: #AFB2BB;
+}
+
+
+@media only screen and (min-width:768px) and (max-width:1024px) {
+    .team.element-eight .team-item {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .team.element-eight .team-item {
+        width: 100%;
+        padding: 0;
+    }
+
+    .team.element-eight .team-hoverfx .team_detail_bx {
+        bottom: 45%;
+    }
+
+    .team.element-eight .team-item:nth-of-type(2) {
+        margin: 0;
+    }
+}
+
+/*======================== Team Eight Ends ========================*/
+
+
+/*=========================== Swiper Slider Starts ===========================*/
+.team.swiper-container > .swiper-wrapper > .swiper-slide {
+    width: 286.5px;
+    margin-right: 30px;
+
+}
+
+.team.swiper-container.element-five > .swiper-wrapper > .swiper-slide {
+    width: 411.333px;
+    margin-right: 1px;
+}
+
+.team.swiper-container.element-four > .swiper-wrapper > .swiper-slide {
+    width: 316.5px;
+}
+
+.team.element-seven.swiper-container > .swiper-wrapper > .swiper-slide {
+    width: 392px;
+    margin-right: 30px;
+}
+
+/*.team.element-six.swiper-container > .swiper-wrapper > .swiper-slide {
+    width: 392px;
+    margin-right: 30px;
+}*/
+
+/*=========================== Swiper Slider Ends ===========================*/

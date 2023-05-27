@@ -1,0 +1,167 @@
+2022-04-05T05:54:34+00:00 CRITICAL Uncaught Error: Failed opening required '/home/busia.radiantthemes.com/public_html/wp-content/themes/busia/inc/merlin/vendor/autoload.php' (include_path='.:') in /home/busia.radiantthemes.com/public_html/wp-content/themes/busia/functions.php:2143
+Stack trace:
+#0 /home/busia.radiantthemes.com/public_html/wp-settings.php(555): include()
+#1 /home/busia.radiantthemes.com/public_html/wp-config.php(66): require_once('...')
+#2 /home/busia.radiantthemes.com/public_html/wp-load.php(50): require_once('...')
+#3 /home/busia.radiantthemes.com/public_html/wp-admin/admin-ajax.php(22): require_once('...')
+#4 {main}
+  thrown in /home/busia.radiantthemes.com/public_html/wp-content/themes/busia/functions.php on line 2143
+
+2022-04-05T05:54:50+00:00 CRITICAL Uncaught Error: Failed opening required '/home/busia.radiantthemes.com/public_html/wp-content/themes/busia/inc/merlin/vendor/autoload.php' (include_path='.:') in /home/busia.radiantthemes.com/public_html/wp-content/themes/busia/functions.php:2143
+Stack trace:
+#0 /home/busia.radiantthemes.com/public_html/wp-settings.php(555): include()
+#1 /home/busia.radiantthemes.com/public_html/wp-config.php(66): require_once('...')
+#2 /home/busia.radiantthemes.com/public_html/wp-load.php(50): require_once('...')
+#3 /home/busia.radiantthemes.com/public_html/wp-admin/admin-ajax.php(22): require_once('...')
+#4 {main}
+  thrown in /home/busia.radiantthemes.com/public_html/wp-content/themes/busia/functions.php on line 2143
+
+2022-04-05T05:55:00+00:00 CRITICAL Uncaught Error: Failed opening required '/home/busia.radiantthemes.com/public_html/wp-content/themes/busia/inc/merlin/vendor/autoload.php' (include_path='.:') in /home/busia.radiantthemes.com/public_html/wp-content/themes/busia/functions.php:2143
+Stack trace:
+#0 /home/busia.radiantthemes.com/public_html/wp-settings.php(555): include()
+#1 /home/busia.radiantthemes.com/public_html/wp-config.php(66): require_once('...')
+#2 /home/busia.radiantthemes.com/public_html/wp-load.php(50): require_once('...')
+#3 /home/busia.radiantthemes.com/public_html/wp-admin/admin-ajax.php(22): require_once('...')
+#4 {main}
+  thrown in /home/busia.radiantthemes.com/public_html/wp-content/themes/busia/functions.php on line 2143
+
+2022-04-05T05:55:35+00:00 CRITICAL Uncaught Error: Failed opening required '/home/busia.radiantthemes.com/public_html/wp-content/themes/busia/inc/merlin/vendor/autoload.php' (include_path='.:') in /home/busia.radiantthemes.com/public_html/wp-content/themes/busia/functions.php:2143
+Stack trace:
+#0 /home/busia.radiantthemes.com/public_html/wp-settings.php(555): include()
+#1 /home/busia.radiantthemes.com/public_html/wp-config.php(66): require_once('...')
+#2 /home/busia.radiantthemes.com/public_html/wp-load.php(50): require_once('...')
+#3 /home/busia.radiantthemes.com/public_html/wp-admin/admin-ajax.php(22): require_once('...')
+#4 {main}
+  thrown in /home/busia.radiantthemes.com/public_html/wp-content/themes/busia/functions.php on line 2143
+
+2022-04-05T05:55:49+00:00 CRITICAL Uncaught Error: Failed opening required '/home/busia.radiantthemes.com/public_html/wp-content/themes/busia/inc/merlin/vendor/autoload.php' (include_path='.:') in /home/busia.radiantthemes.com/public_html/wp-content/themes/busia/functions.php:2143
+Stack trace:
+#0 /home/busia.radiantthemes.com/public_html/wp-settings.php(555): include()
+#1 /home/busia.radiantthemes.com/public_html/wp-config.php(66): require_once('...')
+#2 /home/busia.radiantthemes.com/public_html/wp-load.php(50): require_once('...')
+#3 /home/busia.radiantthemes.com/public_html/wp-admin/admin-ajax.php(22): require_once('...')
+#4 {main}
+  thrown in /home/busia.radiantthemes.com/public_html/wp-content/themes/busia/functions.php on line 2143
+
+2022-04-05T05:56:34+00:00 CRITICAL Uncaught Error: Failed opening required '/home/busia.radiantthemes.com/public_html/wp-content/themes/busia/inc/merlin/vendor/autoload.php' (include_path='.:') in /home/busia.radiantthemes.com/public_html/wp-content/themes/busia/functions.php:2143
+Stack trace:
+#0 /home/busia.radiantthemes.com/public_html/wp-settings.php(555): include()
+#1 /home/busia.radiantthemes.com/public_html/wp-config.php(66): require_once('...')
+#2 /home/busia.radiantthemes.com/public_html/wp-load.php(50): require_once('...')
+#3 /home/busia.radiantthemes.com/public_html/wp-admin/admin-ajax.php(22): require_once('...')
+#4 {main}
+  thrown in /home/busia.radiantthemes.com/public_html/wp-content/themes/busia/functions.php on line 2143
+
+2022-04-05T05:56:50+00:00 CRITICAL Uncaught Error: Failed opening required '/home/busia.radiantthemes.com/public_html/wp-content/themes/busia/inc/merlin/vendor/autoload.php' (include_path='.:') in /home/busia.radiantthemes.com/public_html/wp-content/themes/busia/functions.php:2143
+Stack trace:
+#0 /home/busia.radiantthemes.com/public_html/wp-settings.php(555): include()
+#1 /home/busia.radiantthemes.com/public_html/wp-config.php(66): require_once('...')
+#2 /home/busia.radiantthemes.com/public_html/wp-load.php(50): require_once('...')
+#3 /home/busia.radiantthemes.com/public_html/wp-login.php(12): require('...')
+#4 {main}
+  thrown in /home/busia.radiantthemes.com/public_html/wp-content/themes/busia/functions.php on line 2143
+
+2022-04-05T05:56:50+00:00 CRITICAL Uncaught Error: Failed opening required '/home/busia.radiantthemes.com/public_html/wp-content/themes/busia/inc/merlin/vendor/autoload.php' (include_path='.:') in /home/busia.radiantthemes.com/public_html/wp-content/themes/busia/functions.php:2143
+Stack trace:
+#0 /home/busia.radiantthemes.com/public_html/wp-settings.php(555): include()
+#1 /home/busia.radiantthemes.com/public_html/wp-config.php(66): require_once('...')
+#2 /home/busia.radiantthemes.com/public_html/wp-load.php(50): require_once('...')
+#3 /home/busia.radiantthemes.com/public_html/wp-admin/admin-ajax.php(22): require_once('...')
+#4 {main}
+  thrown in /home/busia.radiantthemes.com/public_html/wp-content/themes/busia/functions.php on line 2143
+
+2022-04-05T05:57:00+00:00 CRITICAL Uncaught Error: Failed opening required '/home/busia.radiantthemes.com/public_html/wp-content/themes/busia/inc/merlin/vendor/autoload.php' (include_path='.:') in /home/busia.radiantthemes.com/public_html/wp-content/themes/busia/functions.php:2143
+Stack trace:
+#0 /home/busia.radiantthemes.com/public_html/wp-settings.php(555): include()
+#1 /home/busia.radiantthemes.com/public_html/wp-config.php(66): require_once('...')
+#2 /home/busia.radiantthemes.com/public_html/wp-load.php(50): require_once('...')
+#3 /home/busia.radiantthemes.com/public_html/wp-admin/admin-ajax.php(22): require_once('...')
+#4 {main}
+  thrown in /home/busia.radiantthemes.com/public_html/wp-content/themes/busia/functions.php on line 2143
+
+2022-04-05T05:57:49+00:00 CRITICAL Uncaught Error: Failed opening required '/home/busia.radiantthemes.com/public_html/wp-content/themes/busia/inc/merlin/vendor/autoload.php' (include_path='.:') in /home/busia.radiantthemes.com/public_html/wp-content/themes/busia/functions.php:2143
+Stack trace:
+#0 /home/busia.radiantthemes.com/public_html/wp-settings.php(555): include()
+#1 /home/busia.radiantthemes.com/public_html/wp-config.php(66): require_once('...')
+#2 /home/busia.radiantthemes.com/public_html/wp-load.php(50): require_once('...')
+#3 /home/busia.radiantthemes.com/public_html/wp-admin/admin-ajax.php(22): require_once('...')
+#4 {main}
+  thrown in /home/busia.radiantthemes.com/public_html/wp-content/themes/busia/functions.php on line 2143
+
+2022-04-05T05:57:50+00:00 CRITICAL Uncaught Error: Failed opening required '/home/busia.radiantthemes.com/public_html/wp-content/themes/busia/inc/merlin/vendor/autoload.php' (include_path='.:') in /home/busia.radiantthemes.com/public_html/wp-content/themes/busia/functions.php:2143
+Stack trace:
+#0 /home/busia.radiantthemes.com/public_html/wp-settings.php(555): include()
+#1 /home/busia.radiantthemes.com/public_html/wp-config.php(66): require_once('...')
+#2 /home/busia.radiantthemes.com/public_html/wp-load.php(50): require_once('...')
+#3 /home/busia.radiantthemes.com/public_html/wp-admin/admin-ajax.php(22): require_once('...')
+#4 {main}
+  thrown in /home/busia.radiantthemes.com/public_html/wp-content/themes/busia/functions.php on line 2143
+
+2022-04-05T05:57:55+00:00 CRITICAL Uncaught Error: Failed opening required '/home/busia.radiantthemes.com/public_html/wp-content/themes/busia/inc/merlin/vendor/autoload.php' (include_path='.:') in /home/busia.radiantthemes.com/public_html/wp-content/themes/busia/functions.php:2143
+Stack trace:
+#0 /home/busia.radiantthemes.com/public_html/wp-settings.php(555): include()
+#1 /home/busia.radiantthemes.com/public_html/wp-config.php(66): require_once('...')
+#2 /home/busia.radiantthemes.com/public_html/wp-load.php(50): require_once('...')
+#3 /home/busia.radiantthemes.com/public_html/wp-blog-header.php(13): require_once('...')
+#4 /home/busia.radiantthemes.com/public_html/index.php(17): require('...')
+#5 {main}
+  thrown in /home/busia.radiantthemes.com/public_html/wp-content/themes/busia/functions.php on line 2143
+
+2022-04-05T05:57:58+00:00 CRITICAL Uncaught Error: Failed opening required '/home/busia.radiantthemes.com/public_html/wp-content/themes/busia/inc/merlin/vendor/autoload.php' (include_path='.:') in /home/busia.radiantthemes.com/public_html/wp-content/themes/busia/functions.php:2143
+Stack trace:
+#0 /home/busia.radiantthemes.com/public_html/wp-settings.php(555): include()
+#1 /home/busia.radiantthemes.com/public_html/wp-config.php(66): require_once('...')
+#2 /home/busia.radiantthemes.com/public_html/wp-load.php(50): require_once('...')
+#3 /home/busia.radiantthemes.com/public_html/wp-blog-header.php(13): require_once('...')
+#4 /home/busia.radiantthemes.com/public_html/index.php(17): require('...')
+#5 {main}
+  thrown in /home/busia.radiantthemes.com/public_html/wp-content/themes/busia/functions.php on line 2143
+
+2022-04-05T05:58:06+00:00 CRITICAL Uncaught Error: Failed opening required '/home/busia.radiantthemes.com/public_html/wp-content/themes/busia/inc/merlin/vendor/autoload.php' (include_path='.:') in /home/busia.radiantthemes.com/public_html/wp-content/themes/busia/functions.php:2143
+Stack trace:
+#0 /home/busia.radiantthemes.com/public_html/wp-settings.php(555): include()
+#1 /home/busia.radiantthemes.com/public_html/wp-config.php(66): require_once('...')
+#2 /home/busia.radiantthemes.com/public_html/wp-load.php(50): require_once('...')
+#3 /home/busia.radiantthemes.com/public_html/wp-admin/admin-ajax.php(22): require_once('...')
+#4 {main}
+  thrown in /home/busia.radiantthemes.com/public_html/wp-content/themes/busia/functions.php on line 2143
+
+2022-04-05T05:58:08+00:00 CRITICAL Uncaught Error: Failed opening required '/home/busia.radiantthemes.com/public_html/wp-content/themes/busia/inc/merlin/vendor/autoload.php' (include_path='.:') in /home/busia.radiantthemes.com/public_html/wp-content/themes/busia/functions.php:2143
+Stack trace:
+#0 /home/busia.radiantthemes.com/public_html/wp-settings.php(555): include()
+#1 /home/busia.radiantthemes.com/public_html/wp-config.php(66): require_once('...')
+#2 /home/busia.radiantthemes.com/public_html/wp-load.php(50): require_once('...')
+#3 /home/busia.radiantthemes.com/public_html/wp-blog-header.php(13): require_once('...')
+#4 /home/busia.radiantthemes.com/public_html/index.php(17): require('...')
+#5 {main}
+  thrown in /home/busia.radiantthemes.com/public_html/wp-content/themes/busia/functions.php on line 2143
+
+2022-04-05T05:58:17+00:00 CRITICAL Uncaught Error: Failed opening required '/home/busia.radiantthemes.com/public_html/wp-content/themes/busia/inc/merlin/vendor/autoload.php' (include_path='.:') in /home/busia.radiantthemes.com/public_html/wp-content/themes/busia/functions.php:2143
+Stack trace:
+#0 /home/busia.radiantthemes.com/public_html/wp-settings.php(555): include()
+#1 /home/busia.radiantthemes.com/public_html/wp-config.php(66): require_once('...')
+#2 /home/busia.radiantthemes.com/public_html/wp-load.php(50): require_once('...')
+#3 /home/busia.radiantthemes.com/public_html/wp-blog-header.php(13): require_once('...')
+#4 /home/busia.radiantthemes.com/public_html/index.php(17): require('...')
+#5 {main}
+  thrown in /home/busia.radiantthemes.com/public_html/wp-content/themes/busia/functions.php on line 2143
+
+2022-04-05T05:58:21+00:00 CRITICAL Uncaught Error: Failed opening required '/home/busia.radiantthemes.com/public_html/wp-content/themes/busia/inc/merlin/vendor/autoload.php' (include_path='.:') in /home/busia.radiantthemes.com/public_html/wp-content/themes/busia/functions.php:2143
+Stack trace:
+#0 /home/busia.radiantthemes.com/public_html/wp-settings.php(555): include()
+#1 /home/busia.radiantthemes.com/public_html/wp-config.php(66): require_once('...')
+#2 /home/busia.radiantthemes.com/public_html/wp-load.php(50): require_once('...')
+#3 /home/busia.radiantthemes.com/public_html/wp-admin/admin-ajax.php(22): require_once('...')
+#4 {main}
+  thrown in /home/busia.radiantthemes.com/public_html/wp-content/themes/busia/functions.php on line 2143
+
+2022-04-05T05:58:21+00:00 CRITICAL Uncaught Error: Failed opening required '/home/busia.radiantthemes.com/public_html/wp-content/themes/busia/inc/merlin/vendor/autoload.php' (include_path='.:') in /home/busia.radiantthemes.com/public_html/wp-content/themes/busia/functions.php:2143
+Stack trace:
+#0 /home/busia.radiantthemes.com/public_html/wp-settings.php(555): include()
+#1 /home/busia.radiantthemes.com/public_html/wp-config.php(66): require_once('...')
+#2 /home/busia.radiantthemes.com/public_html/wp-load.php(50): require_once('...')
+#3 /home/busia.radiantthemes.com/public_html/wp-blog-header.php(13): require_once('...')
+#4 /home/busia.radiantthemes.com/public_html/index.php(17): require('...')
+#5 {main}
+  thrown in /home/busia.radiantthemes.com/public_html/wp-content/themes/busia/functions.php on line 2143
+

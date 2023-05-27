@@ -1,0 +1,17 @@
+2022-04-07T08:42:36+00:00 CRITICAL Uncaught TypeError: substr(): Argument #3 ($length) must be of type ?int, string given in /home/busia.radiantthemes.com/public_html/wp-content/plugins/radiantthemes-addons/widgets/blog/template/template-blog-item-four.php:118
+Stack trace:
+#0 /home/busia.radiantthemes.com/public_html/wp-content/plugins/radiantthemes-addons/widgets/blog/template/template-blog-item-four.php(118): substr()
+#1 /home/busia.radiantthemes.com/public_html/wp-content/plugins/radiantthemes-addons/widgets/blog/class-radiantthemes-style-blog.php(842): require('...')
+#2 /home/busia.radiantthemes.com/public_html/wp-content/plugins/elementor/includes/base/controls-stack.php(2221): RadiantthemesAddons\Widgets\Radiantthemes_Style_Blog->render()
+#3 /home/busia.radiantthemes.com/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(609): Elementor\Controls_Stack->render_by_mode()
+#4 /home/busia.radiantthemes.com/public_html/wp-content/plugins/elementor/core/base/document.php(284): Elementor\Widget_Base->render_content()
+#5 /home/busia.radiantthemes.com/public_html/wp-content/plugins/elementor/includes/managers/widgets.php(385): Elementor\Core\Base\Document->render_element()
+#6 [internal function]: Elementor\Widgets_Manager->ajax_render_widget()
+#7 /home/busia.radiantthemes.com/public_html/wp-content/plugins/elementor/core/common/modules/ajax/module.php(171): call_user_func()
+#8 /home/busia.radiantthemes.com/public_html/wp-includes/class-wp-hook.php(307): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request()
+#9 /home/busia.radiantthemes.com/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#10 /home/busia.radiantthemes.com/public_html/wp-includes/plugin.php(474): WP_Hook->do_action()
+#11 /home/busia.radiantthemes.com/public_html/wp-admin/admin-ajax.php(187): do_action()
+#12 {main}
+  thrown in /home/busia.radiantthemes.com/public_html/wp-content/plugins/radiantthemes-addons/widgets/blog/template/template-blog-item-four.php on line 118
+

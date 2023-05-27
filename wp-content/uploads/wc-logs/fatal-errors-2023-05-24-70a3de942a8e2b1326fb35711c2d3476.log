@@ -1,0 +1,26 @@
+2023-05-24T19:07:09+00:00 CRITICAL Uncaught TypeError: current(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\portfolio\wp-content\plugins\essential-addons-for-elementor-lite\includes\Classes\WPDeveloper_Notice.php:153
+Stack trace:
+#0 C:\xampp\htdocs\portfolio\wp-content\plugins\essential-addons-for-elementor-lite\includes\Classes\WPDeveloper_Notice.php(153): current(NULL)
+#1 C:\xampp\htdocs\portfolio\wp-includes\class-wp-hook.php(308): Essential_Addons_Elementor\Classes\WPDeveloper_Notice->hooks('')
+#2 C:\xampp\htdocs\portfolio\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\portfolio\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\portfolio\wp-settings.php(623): do_action('init')
+#5 C:\xampp\htdocs\portfolio\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\portfolio\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\portfolio\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\portfolio\wp-content\plugins\essential-addons-for-elementor-lite\includes\Classes\WPDeveloper_Notice.php on line 153
+
+2023-05-24T19:07:09+00:00 CRITICAL Uncaught TypeError: current(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\portfolio\wp-content\plugins\essential-addons-for-elementor-lite\includes\Classes\WPDeveloper_Notice.php:153
+Stack trace:
+#0 C:\xampp\htdocs\portfolio\wp-content\plugins\essential-addons-for-elementor-lite\includes\Classes\WPDeveloper_Notice.php(153): current(NULL)
+#1 C:\xampp\htdocs\portfolio\wp-includes\class-wp-hook.php(308): Essential_Addons_Elementor\Classes\WPDeveloper_Notice->hooks('')
+#2 C:\xampp\htdocs\portfolio\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\portfolio\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\portfolio\wp-settings.php(623): do_action('init')
+#5 C:\xampp\htdocs\portfolio\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\portfolio\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\portfolio\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\portfolio\wp-content\plugins\essential-addons-for-elementor-lite\includes\Classes\WPDeveloper_Notice.php on line 153
+
