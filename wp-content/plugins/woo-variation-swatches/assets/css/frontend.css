@@ -2,45 +2,45 @@
  * Variation Swatches for WooCommerce
  *
  * Author: Emran Ahmed ( emran.bd.08@gmail.com )
- * Date: 6/2/2023, 11:04:11 PM
+ * Date: 6/11/2023, 3:24:18 PM
  * Released under the GPLv3 license.
  */
 .woo-variation-swatches.wvs-tooltip {
   /*	.radio-variable-item[data-wvstooltip] {
-  		position: relative;
+          position: relative;
 
-  		&::before,
-  		&::after {
-  			left: 8px;
-  			bottom: 100%;
-  		}
-  	}*/
+          &::before,
+          &::after {
+              left: 8px;
+              bottom: 100%;
+          }
+      }*/
   /*.radio-variable-item .image-tooltip-wrapper {
-  	transform: translateX(-50%);
-  	left: 8px;
+      transform: translateX(-50%);
+      left: 8px;
   }*/
   /*&.wvs-archive-align-center .wvs-archive-variation-wrapper .radio-variable-item {
-  	&[data-wvstooltip]::before,
-  	&[data-wvstooltip]::after {
-  		left: 50%;
-  	}
+      &[data-wvstooltip]::before,
+      &[data-wvstooltip]::after {
+          left: 50%;
+      }
 
-  	.image-tooltip-wrapper {
-  		transform: translateX(-50%);
-  		left: 50%;
-  	}
+      .image-tooltip-wrapper {
+          transform: translateX(-50%);
+          left: 50%;
+      }
   }
 
   &.wvs-archive-align-right .wvs-archive-variation-wrapper .radio-variable-item {
-  	&[data-wvstooltip]::before,
-  	&[data-wvstooltip]::after {
-  		left: 100%;
-  	}
+      &[data-wvstooltip]::before,
+      &[data-wvstooltip]::after {
+          left: 100%;
+      }
 
-  	.image-tooltip-wrapper {
-  		transform: translateX(-50%);
-  		left: 100%;
-  	}
+      .image-tooltip-wrapper {
+          transform: translateX(-50%);
+          left: 100%;
+      }
   }*/
 }
 
@@ -109,7 +109,11 @@
   color: var(--wvs-tooltip-text-color, #FFFFFF);
   height: var(--tip-height);
   line-height: var(--tip-height);
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
   min-width: var(--tip-min-width);
+  padding-inline: 10px;
   -webkit-transform: translateX(var(--horizontal-position));
       -ms-transform: translateX(var(--horizontal-position));
           transform: translateX(var(--horizontal-position));
@@ -126,11 +130,9 @@
   content: attr(data-title);
   background-image: var(--tooltip-background);
   background-repeat: no-repeat;
-  min-width: -webkit-max-content;
-  min-width: -moz-max-content;
-  min-width: max-content;
-  width: var(--image-tip-width-dynamic);
+  min-width: var(--image-tip-width-dynamic);
   height: calc(var(--image-tip-height-dynamic) + var(--tip-height));
+  /*min-width: max-content;*/
   background-size: contain;
   background-position: center top;
   display: -webkit-box;
@@ -967,6 +969,17 @@
 .woo-variation-swatches.wvs-show-label .variations th label, .woo-variation-swatches.wvs-show-label .variations th .woo-selected-variation-item-name, .woo-variation-swatches.wvs-show-label .variations td label, .woo-variation-swatches.wvs-show-label .variations td .woo-selected-variation-item-name {
   display: inline-block;
   margin: 0 2px;
+}
+.woo-variation-swatches.wvs-show-label .variations th .woo-selected-variation-item-name, .woo-variation-swatches.wvs-show-label .variations td .woo-selected-variation-item-name {
+  font-weight: 600;
+}
+.woo-variation-swatches .variations .woo-variation-item-label {
+  margin: 0;
+  -webkit-margin-before: 5px;
+          margin-block-start: 5px;
+}
+.woo-variation-swatches .variations .woo-variation-item-label .woo-selected-variation-item-name {
+  font-weight: 600;
 }
 .woo-variation-swatches .grouped-variable-items {
   display: -webkit-box;

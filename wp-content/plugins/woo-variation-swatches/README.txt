@@ -6,7 +6,7 @@ Requires at least: 5.6
 Tested up to: 6.2
 WC requires at least: 5.6
 WC tested up to: 7.7
-Stable tag: 2.0.21
+Stable tag: 2.0.22
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -613,6 +613,10 @@ And your are ready to go.
 12. Global Variation Color Swatches Attribute List Preview
 
 == Changelog ==
+
+= 2.0.22 - 06-06-2023 =
+
+* Fix: Tooltip width issue
 
 = 2.0.21 - 02-06-2023 =
 
